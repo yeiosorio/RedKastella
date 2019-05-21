@@ -1,0 +1,310 @@
+body {
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+	color: ;	
+}
+#wt_page {
+	/*overflow: hidden;*/
+}	
+h1, h2, h3, h4, h5, h6, #nav.wt_nav_top .navbar-nav > li > a, .wt_counter_sc .stat-count, .wt_counter_sc .wt_stat_detail, .wt_testimonial_content, .wt_google_font, .wt_pricing_content, .btn-theme, .copyright, .wt_portfolioCategory {
+	font-family: 'Lato';
+}
+#anything_slider_wrap,
+#anything_slider_loading, 
+#anything_slider {
+	height: px;
+}
+.caption_left, .caption_right {
+	height: -40px;
+}
+#anything_slider .anything_sidebar_content {
+	height: -40px;
+}
+body.wt_pattern {	
+	background-color: ;
+}
+body.wt_image_bg {	
+}
+#wt_header,
+#stickyHeaderBg,
+.sticky-wrapper #wt_header {
+	background-color: ;
+}
+#topWidgetWrapper {
+	background-color: ;
+}
+#wt_footerTop {	
+	background-color: ;
+}
+#wt_footer {	
+	background-color: ;
+}
+#wt_footerBottom {	
+	background-color: ;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: ;
+}
+h1 {
+	font-size: 36px;
+	color: ;
+}
+h2 {
+	font-size: 30px;
+	color: ;
+}
+h3 {
+	font-size: 24px;
+	color: ;
+}
+h4 {
+	font-size: 18px;
+	color: ;
+}
+h5 {
+	font-size: 14px;
+	color: ;
+}
+h6 {
+	font-size: 12px;
+	color: ;
+}
+#logo_text a {
+	color: ;
+	font-size: 26px;
+}
+#siteDescription {
+	color: ;
+	font-size: 12px;
+}
+#nav.wt_nav_top ul li a,
+#nav.wt_nav_side ul li a {
+	color: ;
+	font-size: 14px;
+}
+#nav ul li > a:hover,
+#nav ul > li:hover > a {
+	color: ;
+}
+#nav ul li.current_page_item a.level-1-a, 
+#nav ul li.current_page_item.level-2-li a.level-2-a,
+#nav ul li.current_page_item.level-3-li a.level-3-a, 
+#nav ul li.current_page_item.level-4-li a.level-4-a,
+#nav ul li.current-page-ancestor a.level-1-a,
+#nav ul li.current-page-ancestor.level-2-li a.level-2-a,
+#nav ul li.current-page-ancestor.level-3-li a.level-3-a,
+#nav ul li.current-page-ancestor.level-4-li a.level-4-a,
+#nav ul li.current_page_ancestor a.level-1-a,
+#nav ul li.current_page_ancestor.level-2-li a.level-2-a,
+#nav ul li.current_page_ancestor.level-3-li a.level-3-a,
+#nav ul li.current_page_ancestor.level-4-li a.level-4-a,
+#nav ul li.current-menu-ancestor a.level-1-a {
+	color: ;
+	border-bottom-color: ;
+}
+#nav ul ul a,
+#nav ul ul.sub-menu li a, 
+#nav ul ul.children li a,
+#nav.wt_nav_side ul ul a, 
+#nav.wt_nav_side ul ul.sub-menu li a, 
+#nav.wt_nav_side ul ul.children li a {
+	color: ;
+	font-size: 13px;
+}
+#nav ul li ul li a:hover {
+	color:  !important;
+}
+#copyright .copyright {
+	color: ;
+	font-size: 14px;
+}
+#wt_footer .widget,
+#wt_footer p {
+	color: ;
+	font-size: 13.5px;
+}
+#wt_footerWrapper  h3.widgettitle,
+#wt_footerWrapper  h4.widgettitle  {
+	color: ;
+	font-size: 18px;
+}
+#wt_sidebar .widgettitle {
+	font-size: 18px;
+}
+.blogEntry {
+	margin-bottom:60px;
+}
+.wt_social_wrap a.aim:hover, .wt_social_wrap a.aim_32:hover, .wt_social_wrap_alt a.aim, .wt_social_wrap_alt a.aim:hover, .wt_social_wrap_alt a.aim_32, .wt_social_wrap_alt a.aim_32:hover { 
+	background-color: #452806; 
+}
+.wt_social_wrap a.apple:hover, .wt_social_wrap a.apple_32:hover, .wt_social_wrap_alt a.apple, .wt_social_wrap_alt a.apple:hover, .wt_social_wrap_alt a.apple_32, .wt_social_wrap_alt a.apple_32:hover, .wt_social_wrap_aw a.apple:hover { 
+	background-color: #231f20; 
+}
+.wt_social_wrap a.behance:hover, .wt_social_wrap a.behance_32:hover, .wt_social_wrap_alt a.behance, .wt_social_wrap_alt a.behance:hover, .wt_social_wrap_alt a.behance_32, .wt_social_wrap_alt a.behance_32:hover { 
+	background-color: #1378fe; 
+}
+.wt_social_wrap a.blogger:hover, .wt_social_wrap a.blogger_32:hover, .wt_social_wrap_alt a.blogger, .wt_social_wrap_alt a.blogger:hover, .wt_social_wrap_alt a.blogger_32, .wt_social_wrap_alt a.blogger_32:hover { 
+	background-color: #fe6601; 
+}
+.wt_social_wrap a.delicious:hover, .wt_social_wrap a.delicious_32:hover, .wt_social_wrap_alt a.delicious, .wt_social_wrap_alt a.delicious:hover, .wt_social_wrap_alt a.delicious_32, .wt_social_wrap_alt a.delicious_32:hover { 
+	background-color: #3274d2; 
+}
+.wt_social_wrap a.deviantart:hover, .wt_social_wrap a.deviantart_32:hover, .wt_social_wrap_alt a.deviantart, .wt_social_wrap_alt a.deviantart:hover, .wt_social_wrap_alt a.deviantart_32, .wt_social_wrap_alt a.deviantart_32:hover { 		
+	background-color: #c8da2e; 
+}
+.wt_social_wrap a.digg:hover, .wt_social_wrap a.digg_32:hover, .wt_social_wrap_alt a.digg, .wt_social_wrap_alt a.digg:hover, .wt_social_wrap_alt a.digg_32, .wt_social_wrap_alt a.digg_32:hover { 
+	background-color: #005f95; 
+}
+.wt_social_wrap a.dribbble:hover, .wt_social_wrap a.dribbble_32:hover, .wt_social_wrap_alt a.dribbble, .wt_social_wrap_alt a.dribbble:hover, .wt_social_wrap_alt a.dribbble_32, .wt_social_wrap_alt a.dribbble_32:hover, .wt_social_wrap_aw a.dribbble:hover { 
+	background-color: #ea4b8b; 
+}
+.wt_social_wrap a.email:hover, .wt_social_wrap a.email_32:hover, .wt_social_wrap_alt a.email, .wt_social_wrap_alt a.email:hover, .wt_social_wrap_alt a.email_32, .wt_social_wrap_alt a.email_32:hover { 
+	background-color: #262626; 
+}
+.wt_social_wrap a.ember:hover, .wt_social_wrap a.ember_32:hover, .wt_social_wrap_alt a.ember, .wt_social_wrap_alt a.ember:hover, .wt_social_wrap_alt a.ember_32, .wt_social_wrap_alt a.ember_32:hover { 
+	background-color: #e11a3b; 
+}
+.wt_social_wrap a.facebook:hover, .wt_social_wrap a.facebook_32:hover, .wt_social_wrap_alt a.facebook, .wt_social_wrap_alt a.facebook:hover, .wt_social_wrap_alt a.facebook_32, .wt_social_wrap_alt a.facebook_32:hover, .wt_social_wrap_aw a.facebook:hover { 
+	background-color: #3C5A9A; 
+}
+.wt_social_wrap a.flickr:hover, .wt_social_wrap a.flickr_32:hover, .wt_social_wrap_alt a.flickr, .wt_social_wrap_alt a.flickr:hover, .wt_social_wrap_alt a.flickr_32, .wt_social_wrap_alt a.flickr_32:hover, .wt_social_wrap_aw a.flickr:hover { 
+	background-color: #0062dd; 
+}
+.wt_social_wrap a.forrst:hover, .wt_social_wrap a.forrst_32:hover, .wt_social_wrap_alt a.forrst, .wt_social_wrap_alt a.forrst:hover, .wt_social_wrap_alt a.forrst_32, .social_wrap_alt a.forrst_32:hover { 
+	background-color: #166021; 
+}
+.wt_social_wrap a.google:hover, .wt_social_wrap a.google_32:hover, .wt_social_wrap_alt a.google, .wt_social_wrap_alt a.google:hover, .wt_social_wrap_alt a.google_32, .wt_social_wrap_alt a.google_32:hover, .wt_social_wrap_aw a.google:hover { 
+	background-color: #4a7af6; 
+}
+.wt_social_wrap a.googleplus:hover, .wt_social_wrap a.googleplus_32:hover, .wt_social_wrap_alt a.googleplus, .wt_social_wrap_alt a.googleplus:hover, .wt_social_wrap_alt a.googleplus_32, .wt_social_wrap_alt a.googleplus_32:hover, .wt_social_wrap_aw a.google-plus:hover { 
+	background-color: #da2713; 
+}
+.wt_social_wrap a.html5:hover, .wt_social_wrap a.html5_32:hover, .wt_social_wrap_alt a.html5, .wt_social_wrap_alt a.html5:hover, .wt_social_wrap_alt a.html5_32, .wt_social_wrap_alt a.html5_32:hover { 
+	background-color: #e54d26; 
+}
+.wt_social_wrap a.lastfm:hover, .wt_social_wrap a.lastfm_32:hover, .wt_social_wrap_alt a.lastfm, .wt_social_wrap_alt a.lastfm:hover, .wt_social_wrap_alt a.lastfm_32, .wt_social_wrap_alt a.lastfm_32:hover { 
+	background-color: #c30d19; 
+}
+.wt_social_wrap a.linkedin:hover, .wt_social_wrap a.linkedin_32:hover, .wt_social_wrap_alt a.linkedin, .wt_social_wrap_alt a.linkedin:hover, .wt_social_wrap_alt a.linkedin_32, .wt_social_wrap_alt a.linkedin_32:hover, .wt_wt_social_wrap_aw a.linkedin:hover { 
+	background-color: #006599; 
+}
+.wt_social_wrap a.metacafe:hover, .wt_social_wrap a.metacafe_32:hover, .wt_social_wrap_alt a.metacafe, .wt_social_wrap_alt a.metacafe:hover, .wt_social_wrap_alt a.metacafe_32, .wt_social_wrap_alt a.metacafe_32:hover { 
+	background-color: #f88326; 
+}
+.wt_social_wrap a.netvibes:hover, .wt_social_wrap a.netvibes_32:hover, .wt_social_wrap_alt a.netvibes, .wt_social_wrap_alt a.netvibes:hover, .wt_social_wrap_alt a.netvibes_32, .wt_social_wrap_alt a.netvibes_32:hover  { 
+	background-color: #15ae15; 
+}
+.wt_social_wrap a.paypal:hover, .wt_social_wrap a.paypal_32:hover, .wt_social_wrap_alt a.paypal, .wt_social_wrap_alt a.paypal:hover, .wt_social_wrap_alt a.paypal_32, .wt_social_wrap_alt a.paypal_32:hover { 
+	background-color: #2c5f8c; 
+}
+.wt_social_wrap a.picasa:hover, .wt_social_wrap a.picasa_32:hover, .wt_social_wrap_alt a.picasa, .wt_social_wrap_alt a.picasa:hover, .wt_social_wrap_alt a.picasa_32, .wt_social_wrap_alt a.picasa_32:hover { 
+	background-color: #b163c9; 
+}
+.wt_social_wrap a.pinterest:hover, .wt_social_wrap a.pinterest_32:hover, .wt_social_wrap_alt a.pinterest, .wt_social_wrap_alt a.pinterest:hover, .wt_social_wrap_alt a.pinterest_32, .wt_social_wrap_alt a.pinterest_32:hover, .wt_social_wrap_aw a.pinterest:hover { 
+	background-color: #cb2028; 
+}
+.wt_social_wrap a.reddit:hover, .wt_social_wrap a.reddit_32:hover, .wt_social_wrap_alt a.reddit, .wt_social_wrap_alt a.reddit:hover, .wt_social_wrap_alt a.reddit_32, .wt_social_wrap_alt a.reddit_32:hover { 
+	background-color: #6bbffb; 
+}
+.wt_social_wrap a.rss:hover, .wt_social_wrap a.rss_32:hover, .wt_social_wrap_alt a.rss, .wt_social_wrap_alt a.rss:hover, .wt_social_wrap_alt a.rss_32, .wt_social_wrap_alt a.rss_32:hover, .wt_social_wrap_aw a.rss:hover { 
+	background-color: #ff6600; 
+}
+.wt_social_wrap a.skype:hover, .wt_social_wrap a.skype_32:hover, .wt_social_wrap_alt a.skype, .wt_social_wrap_alt a.skype:hover, .wt_social_wrap_alt a.skype_32, .wt_social_wrap_alt a.skype_32:hover, .wt_social_wrap_aw a.skype:hover { 
+	background-color: #00aff0; 
+}
+.wt_social_wrap a.stumbleupon:hover, .wt_social_wrap a.stumbleupon_32:hover, .wt_social_wrap_alt a.stumbleupon, .wt_social_wrap_alt a.stumbleupon:hover, .wt_social_wrap_alt a.stumbleupon_32, .wt_social_wrap_alt a.stumbleupon_32:hover { 
+	background-color: #ea4b24; 
+}
+.wt_social_wrap a.technorati:hover, .wt_social_wrap a.technorati_32:hover, .wt_social_wrap_alt a.technorati, .wt_social_wrap_alt a.technorati:hover, .wt_social_wrap_alt a.technorati_32, .wt_social_wrap_alt a.technorati_32:hover { 
+	background-color: #00c400; 
+}
+.wt_social_wrap a.tumblr:hover, .wt_social_wrap a.tumblr_32:hover, .wt_social_wrap_alt a.tumblr, .wt_social_wrap_alt a.tumblr:hover, .wt_social_wrap_alt a.tumblr_32, .wt_social_wrap_alt a.tumblr_32:hover, .wt_wt_social_wrap_aw a.tumblr:hover { 
+	background-color: #2c4661; 
+}
+.wt_social_wrap a.twitter:hover, .wt_social_wrap a.twitter_32:hover, .wt_social_wrap_alt a.twitter, .wt_social_wrap_alt a.twitter:hover, .wt_social_wrap_alt a.twitter_32, .wt_social_wrap_alt a.twitter_32:hover, .wt_wt_social_wrap_aw a.twitter:hover { 
+	background-color: #00acee; 
+}
+.wt_social_wrap a.vimeo:hover, .wt_social_wrap a.vimeo_32:hover, .wt_social_wrap_alt a.vimeo, .wt_social_wrap_alt a.vimeo:hover, .wt_social_wrap_alt a.vimeo_32, .wt_social_wrap_alt a.vimeo_32:hover { 
+	background-color: #17aacc; 
+}
+.wt_social_wrap a.wordpress:hover, .wt_social_wrap a.wordpress_32:hover, .wt_social_wrap_alt a.wordpress, .wt_social_wrap_alt a.wordpress:hover, .wt_social_wrap_alt a.wordpress_32, .wt_social_wrap_alt a.wordpress_32:hover { 
+	background-color: #207499; 
+}
+.wt_social_wrap a.yahoo:hover, .wt_social_wrap a.yahoo_32:hover, .wt_social_wrap_alt a.yahoo, .wt_social_wrap_alt a.yahoo:hover, .wt_social_wrap_alt a.yahoo_32, .swt_ocial_wrap_alt a.yahoo_32:hover { 
+	background-color: #65106b; 
+}
+.wt_social_wrap a.yelp:hover, .wt_social_wrap a.yelp_32:hover, .wt_social_wrap_alt a.yelp, .wt_social_wrap_alt a.yelp:hover, .wt_social_wrap_alt a.yelp_32, .wt_social_wrap_alt a.yelp_32:hover { 
+	background-color: #c51102; 
+}
+.wt_social_wrap a.youtube:hover, .wt_social_wrap a.youtube_32:hover, .wt_social_wrap_alt a.youtube, .wt_social_wrap_alt a.youtube:hover, .wt_social_wrap_alt a.youtube_32, .wt_social_wrap_alt a.youtube_32:hover, .wt_social_wrap_aw a.youtube:hover { 
+	background-color: #d20200; 
+}
+.wt_social_wrap_fa a.apple:hover { 
+	border-color: #231f20;  }
+.wt_social_wrap_fa a.apple:hover i { 
+	color: #231f20;  }
+.wt_social_wrap_fa a.dribbble:hover { 
+	border-color: #ea4b8b;  }
+.wt_social_wrap_fa a.dribbble:hover i { 
+	color: #ea4b8b;  }
+.wt_social_wrap_fa a.dropbox:hover { 
+	border-color: #007ee5;  }
+.wt_social_wrap_fa a.dropbox:hover i { 
+	color: #007ee5;  }
+.wt_social_wrap_fa a.facebook:hover { 
+	border-color: #3C5A9A;  }
+.wt_social_wrap_fa a.facebook:hover i { 
+	color: #3C5A9A;  }
+.wt_social_wrap_fa a.flickr:hover { 
+	border-color: #0062dd;  }
+.wt_social_wrap_fa a.flickr:hover i { 
+	color: #0062dd;  }
+.wt_social_wrap_fa a.github:hover { 
+	border-color: #569e3d;  }
+.wt_social_wrap_fa a.github:hover i { 
+	color: #569e3d;  }
+.wt_social_wrap_fa a.google-plus:hover { 
+	border-color: #da2713;  }
+.wt_social_wrap_fa a.google-plus:hover i { 
+	color: #da2713;  }
+.wt_social_wrap_fa a.html5:hover { 
+	border-color: #e54d26;  }
+.wt_social_wrap_fa a.html5:hover i { 
+	color: #e54d26;  }
+.wt_social_wrap_fa a.instagram:hover { 
+	border-color: #517fa4;  }
+.wt_social_wrap_fa a.instagram:hover i { 
+	color: #517fa4;  }
+.wt_social_wrap_fa a.linkedin:hover { 
+	border-color: #006599;  }
+.wt_social_wrap_fa a.linkedin:hover i { 
+	color: #006599;  }
+.wt_social_wrap_fa a.pinterest:hover { 
+	border-color: #cb2028;  }
+.wt_social_wrap_fa a.pinterest:hover i { 
+	color: #cb2028;  }
+.wt_social_wrap_fa a.rss:hover { 
+	border-color: #ff6600;  }
+.wt_social_wrap_fa a.rss:hover i { 
+	color: #ff6600;  }
+.wt_social_wrap_fa a.skype:hover { 
+	border-color: #00aff0;  }
+.wt_social_wrap_fa a.skype:hover i { 
+	color: #00aff0;  }
+.wt_social_wrap_fa a.tumblr:hover { 
+	border-color: #2c4661;  }
+.wt_social_wrap_fa a.tumblr:hover i { 
+	color: #2c4661;  }
+.wt_social_wrap_fa a.twitter:hover { 
+	border-color: #00acee;  }
+.wt_social_wrap_fa a.twitter:hover i { 
+	color: #00acee;  }
+.wt_social_wrap_fa a.vimeo-square:hover { 
+	border-color: #17aacc;  }
+.wt_social_wrap_fa a.vimeo-square:hover i { 
+	color: #17aacc;  }
+.wt_social_wrap_fa a.youtube:hover { 
+	border-color: #d20200;  }
+.wt_social_wrap_fa a.youtube:hover i { 
+	color: #d20200;  }
+/* ----------------- Custom css ----------------- */

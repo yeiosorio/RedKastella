@@ -1,0 +1,245 @@
+/**
+ * WhoaThemes Extend WPBakery Visual Composer Shortcodes
+ *
+ * WhoaThemes Admin Style
+ *
+ */
+
+/* General 
+   ------------------------------------------------- */ 
+    
+.wpb-content-layouts li .vc-el-container {
+	width: 100%; }
+.hidden_el {
+	display: none; }
+.border_box {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.wt_dependency {
+	padding-left: 35px !important; }
+.wpb_wt_team .wpb_element_wrapper,
+.wpb_wt_testimonial .wpb_element_wrapper  {
+	background-image: none !important; }
+.wpb_wt_team .attachment-thumbnail,
+.wpb_wt_testimonial .attachment-thumbnail {
+	margin: -18px -42px;
+	display: block;
+	width: auto;
+	height: 32px;
+	max-width: 32px; }
+.wpb_wt_clients .attachment-thumbnails,
+.wpb_wt_gallery_grid .attachment-thumbnails  {
+	overflow: hidden;
+	height: 50px;
+	padding: 0px;
+	margin: 10px 0 0; }
+.wpb_wt_clients .attachment-thumbnails li,
+.wpb_wt_gallery_grid .attachment-thumbnails li {
+	height: 50px;
+	width: 70px;
+	overflow: hidden;
+	margin-right: 1px;
+	margin-bottom: 0;
+	display: inline-block; }
+.wpb_wt_clients .attachment-thumbnails img,
+.wpb_wt_gallery_grid .attachment-thumbnails img {
+	height: auto;
+	max-width: 100%; }
+.wpb_content_element.wpb_wt_clients > .wpb_element_wrapper,
+.wpb_content_element.wpb_wt_gallery_grid > .wpb_element_wrapper {
+	height: auto; }
+.wtcode .wpb_vc_param_value.wpb-textarea_raw_html.textarea_raw_html {
+	font-family: inherit!important;
+	color: inherit!important;
+	font-size: 13px;
+	word-break: break-all;
+	height: 100px; }
+.wpb_vc_param_value.button.checkbox {
+	height: 16px; }	
+.no_image_image {
+	display: none; }
+.wpb_wt_section_headings h2,
+.wpb_wt_section_headings h3 {
+	font-weight: 300;}
+.wpb_wt_section_headings h2 {
+	margin-bottom: 10px !important; }
+.wp-admin .wpb_element_wrapper h3 {
+	padding-left: 0 !important;
+	padding-right: 0 !important; }
+	
+/* Range Field Within Visual Composer
+   --------------------------------------------------------- */	
+.wt_range_block .noUi-connect {
+	background-color: #007fb1;
+	background-image: -khtml-gradient(linear,left top,left bottom,from(#0099d5),to(#007fb1));
+	background-image: -moz-linear-gradient(top,#0099d5,#007fb1);
+	background-image: -ms-linear-gradient(top,#0099d5,#007fb1);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#0099d5),color-stop(100%,#007fb1));
+	background-image: -webkit-linear-gradient(top,#0099d5,#007fb1);
+	background-image: -o-linear-gradient(top,#0099d5,#007fb1);
+	background-image: linear-gradient(top,#0099d5,#007fb1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@from', endColorstr='@to', GradientType=0) }
+	
+/* ----- Hide textarea raw html fields  ----- */
+
+.wpb_wt_gmap .textarea_raw_html,
+.wpb-textarea_raw_html.marker_data {
+  display: none; }
+
+/* ----- Buttons  ----- */
+.new_marker {
+	display: inline-block;
+	padding: 6px 12px;
+	text-decoration: none;
+	background: #f7f7f7;
+	border: 1px solid #cccccc;
+	z-index: 100;
+	color: #444444;
+	min-width: 110px;
+	text-align: center;
+	position: relative; }
+.new_marker:hover {
+	color: #444444;
+	background: #dedede; }
+
+/* ----- Markers list  ----- */
+.wt_markers_wrapper * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; }
+.wt_markers_wrapper .wt_marker_item {
+	overflow: hidden;
+	background: #f1f1f1;
+	margin-bottom: 10px;
+	border: 1px solid #cccccc; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_info {
+	padding: 8px;
+	display: none;
+	border-top: 1px solid #cccccc;
+	position: relative; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_info .mi_section {
+	margin-bottom: 8px;
+	position: relative;
+	overflow: hidden; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_info .mi_section span {
+	display: block;
+	font-size: 12px;
+	color: #747478; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_info .mi_section.mi_last {
+	margin-bottom: 0; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_info .mi_section.mi_last select {
+	display: inline-block;
+	float: right;
+	width: auto;
+	font-size: 12px; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_info .mi_section.mi_last a {
+	float: left; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_info .mi_section.mi_last span {
+	float: right;
+	display: inline-block;
+	padding-top: 2px;
+	margin-right: 10px; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_info .mi_section.mi_last .m_icon_prev {
+	display: inline-block;
+	float: left;
+	max-height: 22px;
+	width: auto;
+	margin-left: 10px;
+	margin-right: 10px; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_info .mi_section input, 
+.wt_markers_wrapper .wt_marker_item .wt_marker_info .mi_section textarea {
+	border: 1px solid #d1d1d1;
+	font-size: 12px;
+	padding: 4px 8px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: #fefefe;
+	width: 100%; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_info .mi_section input:focus, 
+.wt_markers_wrapper .wt_marker_item .wt_marker_info .mi_section textarea:focus {
+	outline: none;
+	border-color: #ccc;
+	background: #fff; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_info .get_coordinates {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.7) url(../../../../../../wp-admin/images/wpspin_light-2x.gif) center center no-repeat;
+	text-align: center;
+	padding-top: 50px;
+	color: #7B7B7B; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_events {
+	overflow: hidden;
+	background: #f7f7f7;
+	position: relative; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_events .marker_icon {
+	float: left;
+	padding: 6px 12px;
+	border-right: 1px solid #cccccc;
+	display: inline-block;
+	height: 30px;
+	width: 50px; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_events a {
+	color: #444444 !important;
+	text-decoration: none; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_events a:hover {
+	background: #dedede; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_events .marker_title {
+	padding: 6px 12px 0;
+	display: inline-block;
+	max-width: 50%;
+	max-height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-style: italic;
+	font-weight: 300;
+	color: #9C9C9F; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_events .remove_marker {
+	float: right;
+	padding: 6px 12px;
+	border-left: 1px solid #cccccc; }
+.wt_markers_wrapper .wt_marker_item .wt_marker_events .wt_marker_settings {
+	float: left;
+	padding: 6px 12px;
+	border-right: 1px solid #cccccc; }
+.wt_markers_wrapper .wt_marker_info_opened .wt_marker_settings {
+	background: #f1f1f1; }	
+.wt_markers_wrapper .wt_marker_item .wt_marker_events .wt_marker_settings:focus,
+.wt_markers_wrapper .wt_marker_item .wt_marker_events .remove_marker:focus,
+.new_marker {
+	outline: none !important; }
+.wpb_edit_form_elements a:focus {
+	outline: none; }
+.wpb_edit_form_elements .textarea_raw_html.theme {
+    height: 100px; }	
+	
+/* WhoaThemes Extended Elements for Visual Composer
+   --------------------------------------------------------- */
+ 	
+.wt_loadfile_field {
+	display: none; }
+
+.wt_vc_ico_tag,
+.wt_vc_ico_cform,
+.wt_vc_ico_team,
+.wt_vc_ico_testimonial,
+.wt_vc_ico_services_slider,
+.wt_vc_ico_testimonials_slider,
+.wt_vc_ico_blog_grid,
+.wt_vc_ico_portfolio,
+.wt_vc_ico_bx_rotator,
+.wt_vc_ico_social_networks,
+.wt_vc_ico_counter,
+.wt_vc_ico_metro,
+.wt_vc_ico_service_box,
+.wt_vc_ico_services,
+.wt_vc_ico_pricing_table,
+.wt_vc_ico_clients,
+.wt_vc_ico_spacer,
+.wt_vc_ico_custom_heading,
+.wt_vc_ico_section_headings,
+.wt_vc_ico_gallery_grid,
+.wt_vc_ico_gmap {	
+	background-image: url("lib/img/admin/wt.png") !important; }

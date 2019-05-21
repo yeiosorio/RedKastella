@@ -1,0 +1,15 @@
+[17-Sep-2016 23:05:03 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[17-Sep-2016 23:05:07 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/mail.php on line 171
+[17-Sep-2016 23:05:09 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[17-Sep-2016 23:05:26 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/capabilities.php on line 3
+[17-Sep-2016 23:10:27 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[09-Oct-2016 09:34:17 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[09-Oct-2016 09:34:19 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/mail.php on line 171
+[09-Oct-2016 09:34:24 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[09-Oct-2016 09:34:38 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/capabilities.php on line 3
+[11-Feb-2017 19:02:09 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[11-Feb-2017 19:02:12 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/mail.php on line 171
+[11-Feb-2017 19:02:16 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[23-Apr-2017 20:10:03 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[23-Apr-2017 20:10:06 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/mail.php on line 171
+[23-Apr-2017 20:10:09 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/landing/wp-content/plugins/contact-form-7/includes/controller.php on line 3

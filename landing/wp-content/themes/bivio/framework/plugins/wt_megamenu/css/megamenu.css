@@ -1,0 +1,25 @@
+.menu.ui-sortable .wt-megamenu-fields {
+	overflow: hidden;
+	clear: both; }
+.menu.ui-sortable .wt-megamenu-fields p {
+	display: none; }
+.menu.ui-sortable .wt-megamenu-fields h4 {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #e3e3e3;
+	margin-right: 15px;
+	padding-bottom: 5px; }
+.menu.ui-sortable .menu-item-depth-0 .wt-megamenu-fields .field-wt-enable-megamenu,
+.menu.ui-sortable .wt-megamenu-fields .field-wt-icon,
+.menu.ui-sortable .wt-megamenu-fields.field-wt-megamenu-image-icon .field-wt-image,
+.menu.ui-sortable .wt-megamenu-fields.field-wt-megamenu-iconfont-icon .field-wt-iconfont {
+	display: block; }
+.menu.ui-sortable .menu-item-depth-0.field-wt-megamenu-enabled .wt-megamenu-fields .field-wt-fullwidth-menu,
+.menu.ui-sortable .menu-item-depth-0.field-wt-megamenu-enabled .wt-megamenu-fields .field-wt-columns,
+
+.menu.ui-sortable .menu-item-depth-1.field-wt-megamenu-enabled .wt-megamenu-fields .field-wt-styled-title,
+.menu.ui-sortable .menu-item-depth-1.field-wt-megamenu-enabled .wt-megamenu-fields .field-wt-hide-title,
+.menu.ui-sortable .menu-item-depth-1.field-wt-megamenu-enabled .wt-megamenu-fields .field-wt-remove-link,
+.menu.ui-sortable .menu-item-depth-1.field-wt-megamenu-enabled .wt-megamenu-fields .field-wt-html-content,
+.menu.ui-sortable .menu-item-depth-2.field-wt-megamenu-enabled .wt-megamenu-fields .field-wt-new-column {
+	display: block; }

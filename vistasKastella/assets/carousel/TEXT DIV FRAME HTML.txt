@@ -1,0 +1,1 @@
+<iframe src="assets/carousel/carousel.html" width="100%" scrolling="no" style="overflow:hidden;border:none;" frameborder="0"></iframe>

@@ -1,0 +1,738 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'base64url' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/package.json
+5 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/package.json
+6 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/bcrypt/package.json
+7 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/body-parser/package.json
+8 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/bookshelf/package.json
+9 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/express/package.json
+10 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/jsonwebtoken/package.json
+11 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/knex/package.json
+12 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/morgan/package.json
+13 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/mysql/package.json
+14 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/socket.io/package.json
+15 verbose from cache /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/package.json
+16 verbose readDependencies using package.json deps
+17 verbose cache add [ 'base64url', null ]
+18 verbose cache add name=undefined spec="base64url" args=["base64url",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'base64url',
+19 verbose parsed url   path: 'base64url',
+19 verbose parsed url   href: 'base64url' }
+20 silly lockFile d5b52299-base64url base64url
+21 verbose lock base64url /var/www/vhosts/redkastella.com/.npm/d5b52299-base64url.lock
+22 silly lockFile d5b52299-base64url base64url
+23 silly lockFile d5b52299-base64url base64url
+24 verbose addNamed [ 'base64url', '' ]
+25 verbose addNamed [ null, '' ]
+26 silly lockFile 136a8fc7-base64url base64url@
+27 verbose lock base64url@ /var/www/vhosts/redkastella.com/.npm/136a8fc7-base64url.lock
+28 silly addNameRange { name: 'base64url', range: '', hasData: false }
+29 verbose url raw base64url
+30 verbose url resolving [ 'https://registry.npmjs.org/', './base64url' ]
+31 verbose url resolved https://registry.npmjs.org/base64url
+32 info trying registry request attempt 1 at 17:19:30
+33 verbose etag "5HZM61S9HQ1034PEV2VFDENXO"
+34 http GET https://registry.npmjs.org/base64url
+35 http 304 https://registry.npmjs.org/base64url
+36 silly registry.get cb [ 304,
+36 silly registry.get   { date: 'Fri, 08 Apr 2016 22:19:31 GMT',
+36 silly registry.get     via: '1.1 varnish',
+36 silly registry.get     'cache-control': 'max-age=300',
+36 silly registry.get     etag: '"5HZM61S9HQ1034PEV2VFDENXO"',
+36 silly registry.get     age: '22',
+36 silly registry.get     connection: 'keep-alive',
+36 silly registry.get     'x-served-by': 'cache-lhr6321-LHR',
+36 silly registry.get     'x-cache': 'HIT',
+36 silly registry.get     'x-cache-hits': '1',
+36 silly registry.get     'x-timer': 'S1460153971.203922,VS0,VE0',
+36 silly registry.get     vary: 'Accept-Encoding' } ]
+37 verbose etag base64url from cache
+38 silly addNameRange number 2 { name: 'base64url', range: '', hasData: true }
+39 silly addNameRange versions [ 'base64url',
+39 silly addNameRange   [ '0.0.1',
+39 silly addNameRange     '0.0.2',
+39 silly addNameRange     '0.0.3',
+39 silly addNameRange     '0.0.4',
+39 silly addNameRange     '0.0.5',
+39 silly addNameRange     '0.0.6',
+39 silly addNameRange     '1.0.0',
+39 silly addNameRange     '1.0.1',
+39 silly addNameRange     '1.0.2',
+39 silly addNameRange     '1.0.3',
+39 silly addNameRange     '1.0.4',
+39 silly addNameRange     '1.0.5',
+39 silly addNameRange     '1.0.6' ] ]
+40 verbose addNamed [ 'base64url', '1.0.6' ]
+41 verbose addNamed [ '1.0.6', '1.0.6' ]
+42 silly lockFile 5603084f-base64url-1-0-6 base64url@1.0.6
+43 verbose lock base64url@1.0.6 /var/www/vhosts/redkastella.com/.npm/5603084f-base64url-1-0-6.lock
+44 verbose read json /var/www/vhosts/redkastella.com/.npm/base64url/1.0.6/package/package.json
+45 silly lockFile 5603084f-base64url-1-0-6 base64url@1.0.6
+46 silly lockFile 5603084f-base64url-1-0-6 base64url@1.0.6
+47 silly lockFile 136a8fc7-base64url base64url@
+48 silly lockFile 136a8fc7-base64url base64url@
+49 silly resolved [ { name: 'base64url',
+49 silly resolved     version: '1.0.6',
+49 silly resolved     description: 'For encoding to/from base64urls',
+49 silly resolved     main: 'index.js',
+49 silly resolved     bin: { base64url: './bin/base64url' },
+49 silly resolved     scripts: { test: './node_modules/.bin/tap test/*.test.js' },
+49 silly resolved     repository:
+49 silly resolved      { type: 'git',
+49 silly resolved        url: 'git://github.com/brianloveswords/base64url.git' },
+49 silly resolved     keywords: [ 'base64', 'base64url' ],
+49 silly resolved     author: { name: 'Brian J Brennan' },
+49 silly resolved     license: 'MIT',
+49 silly resolved     readmeFilename: 'readme.md',
+49 silly resolved     gitHead: 'a219306e93712cb4380286b44360fea4406d49d3',
+49 silly resolved     devDependencies: { tap: '~0.3.3' },
+49 silly resolved     dependencies: { 'concat-stream': '~1.4.7', meow: '~2.0.0' },
+49 silly resolved     readme: '# base64url  [![Build Status](https://secure.travis-ci.org/brianloveswords/base64url.png)](http://travis-ci.org/brianloveswords/base64url)\n\nConverting to, and from, [base64url](http://en.wikipedia.org/wiki/Base64#RFC_4648)\n\n# Install\n\n```bash\n$ npm install base64url\n```\n\n# Usage\n\n## CLI\n\n```bash\n$ npm install -g base64url\n\n$ echo \'Here is some text to encode\' | base64url\n> SGVyZSBpcyBzb21lIHRleHQgdG8gZW5jb2RlCg\n\n$ echo SGVyZSBpcyBzb21lIHRleHQgdG8gZW5jb2RlCg | base64url -D\n> Here is some text to encode\n\n$ base64url --help\n\n  For encoding to/from base64urls\n\n  Usage: base64url [-hvD] [-b num] [-i in_file] [-o out_file]\n    -h, --help     display this message\n    -v, --version  display version info\n    -D, --decode   decodes input\n    -b, --break    break encoded string into num character lines\n    -i, --input    input file (default: stdin)\n    -o, --output   output file (default: stdout),\n```\n\n## Library\n\n### base64url(stringOrBuffer) ###\n\n### base64url.encode(stringOrBuffer) ###\n\nbase64url encode `stringOrBuffer`\n\n\nExample\n\n```js\n> base64url(\'ladies and gentlemen, we are floating in space\')\n\'bGFkaWVzIGFuZCBnZW50bGVtYW4sIHdlIGFyZSBmbG9hdGluZyBpbiBzcGFjZQ\'\n```\n\n---\n\n### base64url.decode(b64UrlEncodedString, [encoding])\n\nConvert a base64url encoded string into a raw string. Encoding defaults to `\'utf8\'`.\n\n```js\n> base64url.decode(\'cmlkZTogZHJlYW1zIGJ1cm4gZG93bg\')\n\'ride: dreams burn down\'\n```\n\n---\n\n### base64url.fromBase64(b64EncodedString)\n\nConvert a base64 encoded string to a base64url encoded string\n\nExample\n\n```js\n> base64url.fromBase64(\'qL8R4QIcQ/ZsRqOAbeRfcZhilN/MksRtDaErMA==\')\n\'qL8R4QIcQ_ZsRqOAbeRfcZhilN_MksRtDaErMA\'\n```\n\n---\n\n\n### base64url.toBase64(b64UrlEncodedString)\n\nConvert a base64url encoded string to a base64 encoded string\n\n```js\n> base64url.toBase64(\'qL8R4QIcQ_ZsRqOAbeRfcZhilN_MksRtDaErMA\')\n\'qL8R4QIcQ/ZsRqOAbeRfcZhilN/MksRtDaErMA==\'\n```\n\n---\n\n\n### base64url.toBuffer(b64UrlEncodedString)\n\nConvert a base64url encoded string to a Buffer\n\n```js\n> base64url.toBuffer(\'c3Bpcml0dWFsaXplZA\')\n<Buffer 73 70 69 72 69 74 75 61 6c 69 7a 65 64>\n```\n\n# License\n\nMIT\n\n```\nCopyright (c) 2014 Brian J. Brennan\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n"Software"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n```\n',
+49 silly resolved     _id: 'base64url@1.0.6',
+49 silly resolved     _from: 'base64url@' } ]
+50 info install base64url@1.0.6 into /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets
+51 info installOne base64url@1.0.6
+52 verbose from cache /var/www/vhosts/redkastella.com/.npm/base64url/1.0.6/package/package.json
+53 info /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url unbuild
+54 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/package.json
+55 verbose tar unpack /var/www/vhosts/redkastella.com/.npm/base64url/1.0.6/package.tgz
+56 silly lockFile 08c6f9dd-p-sockets-node-modules-base64url /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url
+57 verbose lock /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url /var/www/vhosts/redkastella.com/.npm/08c6f9dd-p-sockets-node-modules-base64url.lock
+58 silly lockFile ca2770d3--npm-base64url-1-0-6-package-tgz /var/www/vhosts/redkastella.com/.npm/base64url/1.0.6/package.tgz
+59 verbose lock /var/www/vhosts/redkastella.com/.npm/base64url/1.0.6/package.tgz /var/www/vhosts/redkastella.com/.npm/ca2770d3--npm-base64url-1-0-6-package-tgz.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm extractEntry .npmignore
+63 silly gunzTarPerm extractEntry LICENSE
+64 silly gunzTarPerm extractEntry index.js
+65 silly gunzTarPerm extractEntry .travis.yml
+66 silly gunzTarPerm extractEntry bin/base64url
+67 silly gunzTarPerm extractEntry readme.md
+68 silly gunzTarPerm extractEntry test/base64url.test.js
+69 silly gunzTarPerm extractEntry test/test.jpg
+70 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/package.json
+71 silly lockFile 08c6f9dd-p-sockets-node-modules-base64url /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url
+72 silly lockFile 08c6f9dd-p-sockets-node-modules-base64url /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url
+73 silly lockFile ca2770d3--npm-base64url-1-0-6-package-tgz /var/www/vhosts/redkastella.com/.npm/base64url/1.0.6/package.tgz
+74 silly lockFile ca2770d3--npm-base64url-1-0-6-package-tgz /var/www/vhosts/redkastella.com/.npm/base64url/1.0.6/package.tgz
+75 info preinstall base64url@1.0.6
+76 verbose from cache /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/package.json
+77 verbose readDependencies using package.json deps
+78 verbose from cache /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/package.json
+79 verbose readDependencies using package.json deps
+80 verbose cache add [ 'concat-stream@~1.4.7', null ]
+81 verbose cache add name=undefined spec="concat-stream@~1.4.7" args=["concat-stream@~1.4.7",null]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: 'concat-stream@~1.4.7',
+82 verbose parsed url   path: 'concat-stream@~1.4.7',
+82 verbose parsed url   href: 'concat-stream@~1.4.7' }
+83 verbose cache add name="concat-stream" spec="~1.4.7" args=["concat-stream","~1.4.7"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '~1.4.7',
+84 verbose parsed url   path: '~1.4.7',
+84 verbose parsed url   href: '~1.4.7' }
+85 verbose addNamed [ 'concat-stream', '~1.4.7' ]
+86 verbose addNamed [ null, '>=1.4.7- <1.5.0-' ]
+87 silly lockFile bbf07dbb-concat-stream-1-4-7 concat-stream@~1.4.7
+88 verbose lock concat-stream@~1.4.7 /var/www/vhosts/redkastella.com/.npm/bbf07dbb-concat-stream-1-4-7.lock
+89 verbose cache add [ 'meow@~2.0.0', null ]
+90 verbose cache add name=undefined spec="meow@~2.0.0" args=["meow@~2.0.0",null]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: 'meow@~2.0.0',
+91 verbose parsed url   path: 'meow@~2.0.0',
+91 verbose parsed url   href: 'meow@~2.0.0' }
+92 verbose cache add name="meow" spec="~2.0.0" args=["meow","~2.0.0"]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: '~2.0.0',
+93 verbose parsed url   path: '~2.0.0',
+93 verbose parsed url   href: '~2.0.0' }
+94 verbose addNamed [ 'meow', '~2.0.0' ]
+95 verbose addNamed [ null, '>=2.0.0- <2.1.0-' ]
+96 silly lockFile cb4cf7a2-meow-2-0-0 meow@~2.0.0
+97 verbose lock meow@~2.0.0 /var/www/vhosts/redkastella.com/.npm/cb4cf7a2-meow-2-0-0.lock
+98 silly addNameRange { name: 'concat-stream',
+98 silly addNameRange   range: '>=1.4.7- <1.5.0-',
+98 silly addNameRange   hasData: false }
+99 silly addNameRange { name: 'meow', range: '>=2.0.0- <2.1.0-', hasData: false }
+100 verbose url raw concat-stream
+101 verbose url resolving [ 'https://registry.npmjs.org/', './concat-stream' ]
+102 verbose url resolved https://registry.npmjs.org/concat-stream
+103 info trying registry request attempt 1 at 17:19:42
+104 verbose etag "1A2YPCJF442SD8UUYOY9VR8V"
+105 http GET https://registry.npmjs.org/concat-stream
+106 verbose url raw meow
+107 verbose url resolving [ 'https://registry.npmjs.org/', './meow' ]
+108 verbose url resolved https://registry.npmjs.org/meow
+109 info trying registry request attempt 1 at 17:19:42
+110 verbose etag "9RHFOTNWFA5YIFJNMQGWSD5BW"
+111 http GET https://registry.npmjs.org/meow
+112 http 304 https://registry.npmjs.org/meow
+113 silly registry.get cb [ 304,
+113 silly registry.get   { date: 'Fri, 08 Apr 2016 22:19:43 GMT',
+113 silly registry.get     via: '1.1 varnish',
+113 silly registry.get     'cache-control': 'max-age=300',
+113 silly registry.get     etag: '"9RHFOTNWFA5YIFJNMQGWSD5BW"',
+113 silly registry.get     age: '16',
+113 silly registry.get     connection: 'keep-alive',
+113 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+113 silly registry.get     'x-cache': 'HIT',
+113 silly registry.get     'x-cache-hits': '1',
+113 silly registry.get     'x-timer': 'S1460153983.361676,VS0,VE0',
+113 silly registry.get     vary: 'Accept-Encoding' } ]
+114 verbose etag meow from cache
+115 silly addNameRange number 2 { name: 'meow', range: '>=2.0.0- <2.1.0-', hasData: true }
+116 silly addNameRange versions [ 'meow',
+116 silly addNameRange   [ '1.0.0',
+116 silly addNameRange     '2.0.0',
+116 silly addNameRange     '2.1.0',
+116 silly addNameRange     '3.0.0',
+116 silly addNameRange     '3.1.0',
+116 silly addNameRange     '3.3.0',
+116 silly addNameRange     '3.4.0',
+116 silly addNameRange     '3.4.1',
+116 silly addNameRange     '3.4.2',
+116 silly addNameRange     '3.5.0',
+116 silly addNameRange     '3.6.0',
+116 silly addNameRange     '3.7.0' ] ]
+117 verbose addNamed [ 'meow', '2.0.0' ]
+118 verbose addNamed [ '2.0.0', '2.0.0' ]
+119 silly lockFile 42ee0ed2-meow-2-0-0 meow@2.0.0
+120 verbose lock meow@2.0.0 /var/www/vhosts/redkastella.com/.npm/42ee0ed2-meow-2-0-0.lock
+121 verbose read json /var/www/vhosts/redkastella.com/.npm/meow/2.0.0/package/package.json
+122 http 200 https://registry.npmjs.org/concat-stream
+123 silly registry.get cb [ 200,
+123 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+123 silly registry.get     etag: '"CNP9CBPX41Y4OIQTJUVK2UI85"',
+123 silly registry.get     'content-type': 'application/json',
+123 silly registry.get     'cache-control': 'max-age=300',
+123 silly registry.get     'content-length': '39544',
+123 silly registry.get     'accept-ranges': 'bytes',
+123 silly registry.get     date: 'Fri, 08 Apr 2016 22:19:43 GMT',
+123 silly registry.get     via: '1.1 varnish',
+123 silly registry.get     age: '10',
+123 silly registry.get     connection: 'keep-alive',
+123 silly registry.get     'x-served-by': 'cache-fra1225-FRA',
+123 silly registry.get     'x-cache': 'HIT',
+123 silly registry.get     'x-cache-hits': '1',
+123 silly registry.get     'x-timer': 'S1460153983.368300,VS0,VE0',
+123 silly registry.get     vary: 'Accept-Encoding' } ]
+124 silly addNameRange number 2 { name: 'concat-stream',
+124 silly addNameRange   range: '>=1.4.7- <1.5.0-',
+124 silly addNameRange   hasData: true }
+125 silly addNameRange versions [ 'concat-stream',
+125 silly addNameRange   [ '0.0.1',
+125 silly addNameRange     '0.0.2',
+125 silly addNameRange     '0.0.3',
+125 silly addNameRange     '0.0.4',
+125 silly addNameRange     '0.0.5',
+125 silly addNameRange     '0.0.6',
+125 silly addNameRange     '0.0.7',
+125 silly addNameRange     '0.0.8',
+125 silly addNameRange     '0.0.9',
+125 silly addNameRange     '0.1.0',
+125 silly addNameRange     '0.1.1',
+125 silly addNameRange     '1.0.0',
+125 silly addNameRange     '1.0.1',
+125 silly addNameRange     '1.1.0',
+125 silly addNameRange     '1.2.0',
+125 silly addNameRange     '1.2.1',
+125 silly addNameRange     '1.3.0',
+125 silly addNameRange     '1.3.1',
+125 silly addNameRange     '1.4.0',
+125 silly addNameRange     '1.4.1',
+125 silly addNameRange     '1.4.2',
+125 silly addNameRange     '1.4.3',
+125 silly addNameRange     '1.4.4',
+125 silly addNameRange     '1.4.5',
+125 silly addNameRange     '1.4.6',
+125 silly addNameRange     '1.4.7',
+125 silly addNameRange     '1.4.8',
+125 silly addNameRange     '1.4.10',
+125 silly addNameRange     '1.5.0',
+125 silly addNameRange     '1.5.1' ] ]
+126 verbose addNamed [ 'concat-stream', '1.4.10' ]
+127 verbose addNamed [ '1.4.10', '1.4.10' ]
+128 silly lockFile e1749757-concat-stream-1-4-10 concat-stream@1.4.10
+129 verbose lock concat-stream@1.4.10 /var/www/vhosts/redkastella.com/.npm/e1749757-concat-stream-1-4-10.lock
+130 verbose read json /var/www/vhosts/redkastella.com/.npm/concat-stream/1.4.10/package/package.json
+131 silly lockFile e1749757-concat-stream-1-4-10 concat-stream@1.4.10
+132 silly lockFile e1749757-concat-stream-1-4-10 concat-stream@1.4.10
+133 silly lockFile bbf07dbb-concat-stream-1-4-7 concat-stream@~1.4.7
+134 silly lockFile bbf07dbb-concat-stream-1-4-7 concat-stream@~1.4.7
+135 silly lockFile 42ee0ed2-meow-2-0-0 meow@2.0.0
+136 silly lockFile 42ee0ed2-meow-2-0-0 meow@2.0.0
+137 silly lockFile cb4cf7a2-meow-2-0-0 meow@~2.0.0
+138 silly lockFile cb4cf7a2-meow-2-0-0 meow@~2.0.0
+139 silly resolved [ { name: 'concat-stream',
+139 silly resolved     version: '1.4.10',
+139 silly resolved     description: 'writable stream that concatenates strings or binary data and calls a callback with the result',
+139 silly resolved     tags: [ 'stream', 'simple', 'util', 'utility' ],
+139 silly resolved     author: { name: 'Max Ogden', email: 'max@maxogden.com' },
+139 silly resolved     repository:
+139 silly resolved      { type: 'git',
+139 silly resolved        url: 'http://github.com/maxogden/concat-stream.git' },
+139 silly resolved     bugs: { url: 'http://github.com/maxogden/concat-stream/issues' },
+139 silly resolved     engines: [ 'node >= 0.8' ],
+139 silly resolved     main: 'index.js',
+139 silly resolved     files: [ 'index.js' ],
+139 silly resolved     scripts: { test: 'tape test/*.js test/server/*.js' },
+139 silly resolved     license: 'MIT',
+139 silly resolved     dependencies:
+139 silly resolved      { inherits: '~2.0.1',
+139 silly resolved        typedarray: '~0.0.5',
+139 silly resolved        'readable-stream': '~1.1.9' },
+139 silly resolved     devDependencies: { tape: '~2.3.2' },
+139 silly resolved     testling: { files: 'test/*.js', browsers: [Object] },
+139 silly resolved     readme: '# concat-stream\n\nWritable stream that concatenates strings or binary data and calls a callback with the result. Not a transform stream -- more of a stream sink.\n\n[![Build Status](https://travis-ci.org/maxogden/concat-stream.svg?branch=master)](https://travis-ci.org/maxogden/concat-stream)\n\n[![NPM](https://nodei.co/npm/concat-stream.png)](https://nodei.co/npm/concat-stream/)\n\n### description\n\nStreams emit many buffers. If you want to collect all of the buffers, and when the stream ends concatenate all of the buffers together and receive a single buffer then this is the module for you.\n\nOnly use this if you know you can fit all of the output of your stream into a single Buffer (e.g. in RAM).\n\nThere are also `objectMode` streams that emit things other than Buffers, and you can concatenate these too. See below for details.\n\n### examples\n\n#### Buffers\n\n```js\nvar fs = require(\'fs\')\nvar concat = require(\'concat-stream\')\n\nvar readStream = fs.createReadStream(\'cat.png\')\nvar concatStream = concat(gotPicture)\n\nreadStream.on(\'error\', handleError)\nreadStream.pipe(concatStream)\n\nfunction gotPicture(imageBuffer) {\n  // imageBuffer is all of `cat.png` as a node.js Buffer\n}\n\nfunction handleError(err) {\n  // handle your error appropriately here, e.g.:\n  console.error(err) // print the error to STDERR\n  process.exit(1) // exit program with non-zero exit code\n}\n\n```\n\n#### Arrays\n\n```js\nvar write = concat(function(data) {})\nwrite.write([1,2,3])\nwrite.write([4,5,6])\nwrite.end()\n// data will be [1,2,3,4,5,6] in the above callback\n```\n\n#### Uint8Arrays\n\n```js\nvar write = concat(function(data) {})\nvar a = new Uint8Array(3)\na[0] = 97; a[1] = 98; a[2] = 99\nwrite.write(a)\nwrite.write(\'!\')\nwrite.end(Buffer(\'!!1\'))\n```\n\nSee `test/` for more examples\n\n# methods\n\n```js\nvar concat = require(\'concat-stream\')\n```\n\n## var writable = concat(opts={}, cb)\n\nReturn a `writable` stream that will fire `cb(data)` with all of the data that\nwas written to the stream. Data can be written to `writable` as strings,\nBuffers, arrays of byte integers, and Uint8Arrays. \n\nBy default `concat-stream` will give you back the same data type as the type of the first buffer written to the stream. Use `opts.encoding` to set what format `data` should be returned as, e.g. if you if you don\'t want to rely on the built-in type checking or for some other reason.\n\n* `string` - get a string\n* `buffer` - get back a Buffer\n* `array` - get an array of byte integers\n* `uint8array`, `u8`, `uint8` - get back a Uint8Array\n* `object`, get back an array of Objects\n\nIf you don\'t specify an encoding, and the types can\'t be inferred (e.g. you write things that aren\'t in the list above), it will try to convert concat them into a `Buffer`.\n\n# error handling\n\n`concat-stream` does not handle errors for you, so you must handle errors on whatever streams you pipe into `concat-stream`. This is a general rule when programming with node.js streams: always handle errors on each and every stream. Since `concat-stream` is not itself a stream it does not emit errors.\n\n# license\n\nMIT LICENSE\n',
+139 silly resolved     readmeFilename: 'readme.md',
+139 silly resolved     _id: 'concat-stream@1.4.10',
+139 silly resolved     _from: 'concat-stream@~1.4.7' },
+139 silly resolved   { name: 'meow',
+139 silly resolved     version: '2.0.0',
+139 silly resolved     description: 'CLI app helper',
+139 silly resolved     license: 'MIT',
+139 silly resolved     repository: { type: 'git', url: 'sindresorhus/meow' },
+139 silly resolved     author:
+139 silly resolved      { name: 'Sindre Sorhus',
+139 silly resolved        email: 'sindresorhus@gmail.com',
+139 silly resolved        url: 'http://sindresorhus.com' },
+139 silly resolved     engines: { node: '>=0.10.0' },
+139 silly resolved     scripts: { test: 'node test.js' },
+139 silly resolved     files: [ 'index.js' ],
+139 silly resolved     keywords: [ 'cli', 'bin', 'util', 'utility', 'helper', 'argv' ],
+139 silly resolved     dependencies:
+139 silly resolved      { 'camelcase-keys': '^1.0.0',
+139 silly resolved        'indent-string': '^1.1.0',
+139 silly resolved        minimist: '^1.1.0',
+139 silly resolved        'object-assign': '^1.0.0' },
+139 silly resolved     devDependencies: { ava: '0.0.4' },
+139 silly resolved     readme: '# meow [![Build Status](https://travis-ci.org/sindresorhus/meow.svg?branch=master)](https://travis-ci.org/sindresorhus/meow)\n\n> CLI app helper\n\n![](meow.gif)\n\n\n## Features\n\n- Parses arguments using [minimist](https://github.com/substack/minimist)\n- Converts flags to [camelCase](https://github.com/sindresorhus/camelcase)\n- Outputs version when `--version`\n- Outputs description and supplied help text when `--help`\n\n\n## Install\n\n```sh\n$ npm install --save meow\n```\n\n\n## Usage\n\n```sh\n$ ./foo-app.js unicorns --rainbow-cake\n```\n\n```js\n#!/usr/bin/env node\n\'use strict\';\nvar meow = require(\'meow\');\nvar fooApp = require(\'./\');\n\nvar cli = meow({\n\thelp: [\n\t\t\'Usage\',\n\t\t\'  foo-app <input>\'\n\t].join(\'\\n\')\n});\n/*\n{\n\tinput: [\'unicorns\'],\n\tflags: {rainbowCake: true},\n\t...\n}\n*/\n\nfooApp(cli.input[0], cli.flags);\n```\n\n\n## API\n\n### meow(options, minimistOptions)\n\nReturns an object with:\n\n- `input` *(array)* - Non-flag arguments\n- `flags` *(object)* - Flags converted to camelCase\n- `pkg` *(object)* - The `package.json` object\n- `help` *(object)* - The help text used with `--help`\n- `showHelp()` *(function)* - Show the help text and exit\n\n#### options\n\n##### help\n\nType: `string`  \n\nThe help text you want shown.\n\n##### pkg\n\nType: `string`  \nDefault: `package.json`\n\nRelative path to `package.json`.\n\n##### argv\n\nType: `array`  \nDefault: `process.argv.slice(2)`\n\nCustom arguments object.\n\n#### minimistOptions\n\nType: `object`  \nDefault: `{}`\n\nMinimist [options](https://github.com/substack/minimist#var-argv--parseargsargs-opts).\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n',
+139 silly resolved     readmeFilename: 'readme.md',
+139 silly resolved     _id: 'meow@2.0.0',
+139 silly resolved     _from: 'meow@~2.0.0' } ]
+140 info install concat-stream@1.4.10 into /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url
+141 info install meow@2.0.0 into /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url
+142 info installOne concat-stream@1.4.10
+143 info installOne meow@2.0.0
+144 verbose from cache /var/www/vhosts/redkastella.com/.npm/concat-stream/1.4.10/package/package.json
+145 info /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/concat-stream unbuild
+146 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/concat-stream/package.json
+147 verbose from cache /var/www/vhosts/redkastella.com/.npm/meow/2.0.0/package/package.json
+148 info /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/meow unbuild
+149 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/meow/package.json
+150 verbose tar unpack /var/www/vhosts/redkastella.com/.npm/concat-stream/1.4.10/package.tgz
+151 silly lockFile e977a818-64url-node-modules-concat-stream /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/concat-stream
+152 verbose lock /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/concat-stream /var/www/vhosts/redkastella.com/.npm/e977a818-64url-node-modules-concat-stream.lock
+153 silly lockFile 740b16dc-concat-stream-1-4-10-package-tgz /var/www/vhosts/redkastella.com/.npm/concat-stream/1.4.10/package.tgz
+154 verbose lock /var/www/vhosts/redkastella.com/.npm/concat-stream/1.4.10/package.tgz /var/www/vhosts/redkastella.com/.npm/740b16dc-concat-stream-1-4-10-package-tgz.lock
+155 verbose tar unpack /var/www/vhosts/redkastella.com/.npm/meow/2.0.0/package.tgz
+156 silly lockFile 11149afd-ules-base64url-node-modules-meow /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/meow
+157 verbose lock /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/meow /var/www/vhosts/redkastella.com/.npm/11149afd-ules-base64url-node-modules-meow.lock
+158 silly lockFile 7ec877aa-a-com-npm-meow-2-0-0-package-tgz /var/www/vhosts/redkastella.com/.npm/meow/2.0.0/package.tgz
+159 verbose lock /var/www/vhosts/redkastella.com/.npm/meow/2.0.0/package.tgz /var/www/vhosts/redkastella.com/.npm/7ec877aa-a-com-npm-meow-2-0-0-package-tgz.lock
+160 silly gunzTarPerm modes [ '755', '644' ]
+161 silly gunzTarPerm modes [ '755', '644' ]
+162 silly gunzTarPerm extractEntry package.json
+163 silly gunzTarPerm extractEntry package.json
+164 silly gunzTarPerm extractEntry index.js
+165 silly gunzTarPerm extractEntry readme.md
+166 silly gunzTarPerm extractEntry index.js
+167 silly gunzTarPerm extractEntry readme.md
+168 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/meow/package.json
+169 verbose read json /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/concat-stream/package.json
+170 silly lockFile 11149afd-ules-base64url-node-modules-meow /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/meow
+171 silly lockFile 11149afd-ules-base64url-node-modules-meow /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/meow
+172 silly lockFile 7ec877aa-a-com-npm-meow-2-0-0-package-tgz /var/www/vhosts/redkastella.com/.npm/meow/2.0.0/package.tgz
+173 silly lockFile 7ec877aa-a-com-npm-meow-2-0-0-package-tgz /var/www/vhosts/redkastella.com/.npm/meow/2.0.0/package.tgz
+174 info preinstall meow@2.0.0
+175 silly lockFile e977a818-64url-node-modules-concat-stream /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/concat-stream
+176 silly lockFile e977a818-64url-node-modules-concat-stream /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/concat-stream
+177 verbose from cache /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/meow/package.json
+178 silly lockFile 740b16dc-concat-stream-1-4-10-package-tgz /var/www/vhosts/redkastella.com/.npm/concat-stream/1.4.10/package.tgz
+179 silly lockFile 740b16dc-concat-stream-1-4-10-package-tgz /var/www/vhosts/redkastella.com/.npm/concat-stream/1.4.10/package.tgz
+180 verbose readDependencies using package.json deps
+181 verbose from cache /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/meow/package.json
+182 verbose readDependencies using package.json deps
+183 info preinstall concat-stream@1.4.10
+184 verbose cache add [ 'minimist@^1.1.0', null ]
+185 verbose cache add name=undefined spec="minimist@^1.1.0" args=["minimist@^1.1.0",null]
+186 verbose parsed url { protocol: null,
+186 verbose parsed url   slashes: null,
+186 verbose parsed url   auth: null,
+186 verbose parsed url   host: null,
+186 verbose parsed url   port: null,
+186 verbose parsed url   hostname: null,
+186 verbose parsed url   hash: null,
+186 verbose parsed url   search: null,
+186 verbose parsed url   query: null,
+186 verbose parsed url   pathname: 'minimist@^1.1.0',
+186 verbose parsed url   path: 'minimist@^1.1.0',
+186 verbose parsed url   href: 'minimist@^1.1.0' }
+187 verbose cache add name="minimist" spec="^1.1.0" args=["minimist","^1.1.0"]
+188 verbose parsed url { protocol: null,
+188 verbose parsed url   slashes: null,
+188 verbose parsed url   auth: null,
+188 verbose parsed url   host: null,
+188 verbose parsed url   port: null,
+188 verbose parsed url   hostname: null,
+188 verbose parsed url   hash: null,
+188 verbose parsed url   search: null,
+188 verbose parsed url   query: null,
+188 verbose parsed url   pathname: '^1.1.0',
+188 verbose parsed url   path: '^1.1.0',
+188 verbose parsed url   href: '^1.1.0' }
+189 verbose addNamed [ 'minimist', '^1.1.0' ]
+190 verbose addNamed [ null, null ]
+191 silly lockFile b7cda548-minimist-1-1-0 minimist@^1.1.0
+192 verbose lock minimist@^1.1.0 /var/www/vhosts/redkastella.com/.npm/b7cda548-minimist-1-1-0.lock
+193 verbose cache add [ 'camelcase-keys@^1.0.0', null ]
+194 verbose cache add name=undefined spec="camelcase-keys@^1.0.0" args=["camelcase-keys@^1.0.0",null]
+195 verbose parsed url { protocol: null,
+195 verbose parsed url   slashes: null,
+195 verbose parsed url   auth: null,
+195 verbose parsed url   host: null,
+195 verbose parsed url   port: null,
+195 verbose parsed url   hostname: null,
+195 verbose parsed url   hash: null,
+195 verbose parsed url   search: null,
+195 verbose parsed url   query: null,
+195 verbose parsed url   pathname: 'camelcase-keys@^1.0.0',
+195 verbose parsed url   path: 'camelcase-keys@^1.0.0',
+195 verbose parsed url   href: 'camelcase-keys@^1.0.0' }
+196 verbose cache add name="camelcase-keys" spec="^1.0.0" args=["camelcase-keys","^1.0.0"]
+197 verbose parsed url { protocol: null,
+197 verbose parsed url   slashes: null,
+197 verbose parsed url   auth: null,
+197 verbose parsed url   host: null,
+197 verbose parsed url   port: null,
+197 verbose parsed url   hostname: null,
+197 verbose parsed url   hash: null,
+197 verbose parsed url   search: null,
+197 verbose parsed url   query: null,
+197 verbose parsed url   pathname: '^1.0.0',
+197 verbose parsed url   path: '^1.0.0',
+197 verbose parsed url   href: '^1.0.0' }
+198 verbose addNamed [ 'camelcase-keys', '^1.0.0' ]
+199 verbose addNamed [ null, null ]
+200 silly lockFile e38f86dd-camelcase-keys-1-0-0 camelcase-keys@^1.0.0
+201 verbose lock camelcase-keys@^1.0.0 /var/www/vhosts/redkastella.com/.npm/e38f86dd-camelcase-keys-1-0-0.lock
+202 verbose cache add [ 'indent-string@^1.1.0', null ]
+203 verbose cache add name=undefined spec="indent-string@^1.1.0" args=["indent-string@^1.1.0",null]
+204 verbose parsed url { protocol: null,
+204 verbose parsed url   slashes: null,
+204 verbose parsed url   auth: null,
+204 verbose parsed url   host: null,
+204 verbose parsed url   port: null,
+204 verbose parsed url   hostname: null,
+204 verbose parsed url   hash: null,
+204 verbose parsed url   search: null,
+204 verbose parsed url   query: null,
+204 verbose parsed url   pathname: 'indent-string@^1.1.0',
+204 verbose parsed url   path: 'indent-string@^1.1.0',
+204 verbose parsed url   href: 'indent-string@^1.1.0' }
+205 verbose cache add name="indent-string" spec="^1.1.0" args=["indent-string","^1.1.0"]
+206 verbose parsed url { protocol: null,
+206 verbose parsed url   slashes: null,
+206 verbose parsed url   auth: null,
+206 verbose parsed url   host: null,
+206 verbose parsed url   port: null,
+206 verbose parsed url   hostname: null,
+206 verbose parsed url   hash: null,
+206 verbose parsed url   search: null,
+206 verbose parsed url   query: null,
+206 verbose parsed url   pathname: '^1.1.0',
+206 verbose parsed url   path: '^1.1.0',
+206 verbose parsed url   href: '^1.1.0' }
+207 verbose addNamed [ 'indent-string', '^1.1.0' ]
+208 verbose addNamed [ null, null ]
+209 silly lockFile f9eeca10-indent-string-1-1-0 indent-string@^1.1.0
+210 verbose lock indent-string@^1.1.0 /var/www/vhosts/redkastella.com/.npm/f9eeca10-indent-string-1-1-0.lock
+211 verbose cache add [ 'object-assign@^1.0.0', null ]
+212 verbose cache add name=undefined spec="object-assign@^1.0.0" args=["object-assign@^1.0.0",null]
+213 verbose parsed url { protocol: null,
+213 verbose parsed url   slashes: null,
+213 verbose parsed url   auth: null,
+213 verbose parsed url   host: null,
+213 verbose parsed url   port: null,
+213 verbose parsed url   hostname: null,
+213 verbose parsed url   hash: null,
+213 verbose parsed url   search: null,
+213 verbose parsed url   query: null,
+213 verbose parsed url   pathname: 'object-assign@^1.0.0',
+213 verbose parsed url   path: 'object-assign@^1.0.0',
+213 verbose parsed url   href: 'object-assign@^1.0.0' }
+214 verbose cache add name="object-assign" spec="^1.0.0" args=["object-assign","^1.0.0"]
+215 verbose parsed url { protocol: null,
+215 verbose parsed url   slashes: null,
+215 verbose parsed url   auth: null,
+215 verbose parsed url   host: null,
+215 verbose parsed url   port: null,
+215 verbose parsed url   hostname: null,
+215 verbose parsed url   hash: null,
+215 verbose parsed url   search: null,
+215 verbose parsed url   query: null,
+215 verbose parsed url   pathname: '^1.0.0',
+215 verbose parsed url   path: '^1.0.0',
+215 verbose parsed url   href: '^1.0.0' }
+216 verbose addNamed [ 'object-assign', '^1.0.0' ]
+217 verbose addNamed [ null, null ]
+218 silly lockFile 9d7b8598-object-assign-1-0-0 object-assign@^1.0.0
+219 verbose lock object-assign@^1.0.0 /var/www/vhosts/redkastella.com/.npm/9d7b8598-object-assign-1-0-0.lock
+220 verbose from cache /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/concat-stream/package.json
+221 info addNameTag [ 'minimist', '^1.1.0' ]
+222 info addNameTag [ 'camelcase-keys', '^1.0.0' ]
+223 info addNameTag [ 'indent-string', '^1.1.0' ]
+224 info addNameTag [ 'object-assign', '^1.0.0' ]
+225 verbose readDependencies using package.json deps
+226 verbose from cache /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/concat-stream/package.json
+227 verbose readDependencies using package.json deps
+228 verbose cache add [ 'inherits@~2.0.1', null ]
+229 verbose cache add name=undefined spec="inherits@~2.0.1" args=["inherits@~2.0.1",null]
+230 verbose parsed url { protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: 'inherits@~2.0.1',
+230 verbose parsed url   path: 'inherits@~2.0.1',
+230 verbose parsed url   href: 'inherits@~2.0.1' }
+231 verbose cache add name="inherits" spec="~2.0.1" args=["inherits","~2.0.1"]
+232 verbose parsed url { protocol: null,
+232 verbose parsed url   slashes: null,
+232 verbose parsed url   auth: null,
+232 verbose parsed url   host: null,
+232 verbose parsed url   port: null,
+232 verbose parsed url   hostname: null,
+232 verbose parsed url   hash: null,
+232 verbose parsed url   search: null,
+232 verbose parsed url   query: null,
+232 verbose parsed url   pathname: '~2.0.1',
+232 verbose parsed url   path: '~2.0.1',
+232 verbose parsed url   href: '~2.0.1' }
+233 verbose addNamed [ 'inherits', '~2.0.1' ]
+234 verbose addNamed [ null, '>=2.0.1- <2.1.0-' ]
+235 silly lockFile 098ef39f-inherits-2-0-1 inherits@~2.0.1
+236 verbose lock inherits@~2.0.1 /var/www/vhosts/redkastella.com/.npm/098ef39f-inherits-2-0-1.lock
+237 verbose cache add [ 'typedarray@~0.0.5', null ]
+238 verbose cache add name=undefined spec="typedarray@~0.0.5" args=["typedarray@~0.0.5",null]
+239 verbose parsed url { protocol: null,
+239 verbose parsed url   slashes: null,
+239 verbose parsed url   auth: null,
+239 verbose parsed url   host: null,
+239 verbose parsed url   port: null,
+239 verbose parsed url   hostname: null,
+239 verbose parsed url   hash: null,
+239 verbose parsed url   search: null,
+239 verbose parsed url   query: null,
+239 verbose parsed url   pathname: 'typedarray@~0.0.5',
+239 verbose parsed url   path: 'typedarray@~0.0.5',
+239 verbose parsed url   href: 'typedarray@~0.0.5' }
+240 verbose cache add name="typedarray" spec="~0.0.5" args=["typedarray","~0.0.5"]
+241 verbose parsed url { protocol: null,
+241 verbose parsed url   slashes: null,
+241 verbose parsed url   auth: null,
+241 verbose parsed url   host: null,
+241 verbose parsed url   port: null,
+241 verbose parsed url   hostname: null,
+241 verbose parsed url   hash: null,
+241 verbose parsed url   search: null,
+241 verbose parsed url   query: null,
+241 verbose parsed url   pathname: '~0.0.5',
+241 verbose parsed url   path: '~0.0.5',
+241 verbose parsed url   href: '~0.0.5' }
+242 verbose addNamed [ 'typedarray', '~0.0.5' ]
+243 verbose addNamed [ null, '>=0.0.5- <0.1.0-' ]
+244 silly lockFile 59795676-typedarray-0-0-5 typedarray@~0.0.5
+245 verbose lock typedarray@~0.0.5 /var/www/vhosts/redkastella.com/.npm/59795676-typedarray-0-0-5.lock
+246 verbose cache add [ 'readable-stream@~1.1.9', null ]
+247 verbose cache add name=undefined spec="readable-stream@~1.1.9" args=["readable-stream@~1.1.9",null]
+248 verbose parsed url { protocol: null,
+248 verbose parsed url   slashes: null,
+248 verbose parsed url   auth: null,
+248 verbose parsed url   host: null,
+248 verbose parsed url   port: null,
+248 verbose parsed url   hostname: null,
+248 verbose parsed url   hash: null,
+248 verbose parsed url   search: null,
+248 verbose parsed url   query: null,
+248 verbose parsed url   pathname: 'readable-stream@~1.1.9',
+248 verbose parsed url   path: 'readable-stream@~1.1.9',
+248 verbose parsed url   href: 'readable-stream@~1.1.9' }
+249 verbose cache add name="readable-stream" spec="~1.1.9" args=["readable-stream","~1.1.9"]
+250 verbose parsed url { protocol: null,
+250 verbose parsed url   slashes: null,
+250 verbose parsed url   auth: null,
+250 verbose parsed url   host: null,
+250 verbose parsed url   port: null,
+250 verbose parsed url   hostname: null,
+250 verbose parsed url   hash: null,
+250 verbose parsed url   search: null,
+250 verbose parsed url   query: null,
+250 verbose parsed url   pathname: '~1.1.9',
+250 verbose parsed url   path: '~1.1.9',
+250 verbose parsed url   href: '~1.1.9' }
+251 verbose addNamed [ 'readable-stream', '~1.1.9' ]
+252 verbose addNamed [ null, '>=1.1.9- <1.2.0-' ]
+253 silly lockFile f517707b-readable-stream-1-1-9 readable-stream@~1.1.9
+254 verbose lock readable-stream@~1.1.9 /var/www/vhosts/redkastella.com/.npm/f517707b-readable-stream-1-1-9.lock
+255 silly addNameRange { name: 'inherits', range: '>=2.0.1- <2.1.0-', hasData: false }
+256 silly addNameRange { name: 'typedarray', range: '>=0.0.5- <0.1.0-', hasData: false }
+257 silly addNameRange { name: 'readable-stream',
+257 silly addNameRange   range: '>=1.1.9- <1.2.0-',
+257 silly addNameRange   hasData: false }
+258 verbose url raw minimist
+259 verbose url resolving [ 'https://registry.npmjs.org/', './minimist' ]
+260 verbose url resolved https://registry.npmjs.org/minimist
+261 info trying registry request attempt 1 at 17:19:44
+262 verbose etag "F4C0GN2ICLJYSD6SJTQJOL89T"
+263 http GET https://registry.npmjs.org/minimist
+264 verbose url raw indent-string
+265 verbose url resolving [ 'https://registry.npmjs.org/', './indent-string' ]
+266 verbose url resolved https://registry.npmjs.org/indent-string
+267 info trying registry request attempt 1 at 17:19:44
+268 verbose etag "84QNOCURLKKXGO825BTSHHENT"
+269 http GET https://registry.npmjs.org/indent-string
+270 verbose url raw object-assign
+271 verbose url resolving [ 'https://registry.npmjs.org/', './object-assign' ]
+272 verbose url resolved https://registry.npmjs.org/object-assign
+273 info trying registry request attempt 1 at 17:19:44
+274 verbose etag "65X2Q5N9UHXIOQC804Y02T4I2"
+275 http GET https://registry.npmjs.org/object-assign
+276 verbose url raw camelcase-keys
+277 verbose url resolving [ 'https://registry.npmjs.org/', './camelcase-keys' ]
+278 verbose url resolved https://registry.npmjs.org/camelcase-keys
+279 info trying registry request attempt 1 at 17:19:44
+280 verbose etag "9XJ8KEHK2QMKI6MAHD57UTY7T"
+281 http GET https://registry.npmjs.org/camelcase-keys
+282 verbose url raw typedarray
+283 verbose url resolving [ 'https://registry.npmjs.org/', './typedarray' ]
+284 verbose url resolved https://registry.npmjs.org/typedarray
+285 info trying registry request attempt 1 at 17:19:44
+286 verbose etag "6RFURVCQK0AVYAQYR6CSAQV0M"
+287 http GET https://registry.npmjs.org/typedarray
+288 verbose url raw inherits
+289 verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+290 verbose url resolved https://registry.npmjs.org/inherits
+291 info trying registry request attempt 1 at 17:19:44
+292 verbose etag "3645UNH34SN5CHM42TXWU4X9A"
+293 http GET https://registry.npmjs.org/inherits
+294 verbose url raw readable-stream
+295 verbose url resolving [ 'https://registry.npmjs.org/', './readable-stream' ]
+296 verbose url resolved https://registry.npmjs.org/readable-stream
+297 info trying registry request attempt 1 at 17:19:44
+298 verbose etag "9AS4119UHTA2GAYDTBQMALM4L"
+299 http GET https://registry.npmjs.org/readable-stream
+300 http 304 https://registry.npmjs.org/indent-string
+301 silly registry.get cb [ 304,
+301 silly registry.get   { date: 'Fri, 08 Apr 2016 22:19:44 GMT',
+301 silly registry.get     via: '1.1 varnish',
+301 silly registry.get     'cache-control': 'max-age=300',
+301 silly registry.get     etag: '"84QNOCURLKKXGO825BTSHHENT"',
+301 silly registry.get     age: '86',
+301 silly registry.get     connection: 'keep-alive',
+301 silly registry.get     'x-served-by': 'cache-fra1241-FRA',
+301 silly registry.get     'x-cache': 'HIT',
+301 silly registry.get     'x-cache-hits': '1',
+301 silly registry.get     'x-timer': 'S1460153984.694724,VS0,VE0',
+301 silly registry.get     vary: 'Accept-Encoding' } ]
+302 verbose etag indent-string from cache
+303 silly lockFile f9eeca10-indent-string-1-1-0 indent-string@^1.1.0
+304 silly lockFile f9eeca10-indent-string-1-1-0 indent-string@^1.1.0
+305 http 304 https://registry.npmjs.org/object-assign
+306 silly registry.get cb [ 304,
+306 silly registry.get   { date: 'Fri, 08 Apr 2016 22:19:44 GMT',
+306 silly registry.get     via: '1.1 varnish',
+306 silly registry.get     'cache-control': 'max-age=300',
+306 silly registry.get     etag: '"65X2Q5N9UHXIOQC804Y02T4I2"',
+306 silly registry.get     age: '92',
+306 silly registry.get     connection: 'keep-alive',
+306 silly registry.get     'x-served-by': 'cache-fra1242-FRA',
+306 silly registry.get     'x-cache': 'HIT',
+306 silly registry.get     'x-cache-hits': '1',
+306 silly registry.get     'x-timer': 'S1460153984.707299,VS0,VE0',
+306 silly registry.get     vary: 'Accept-Encoding' } ]
+307 verbose etag object-assign from cache
+308 verbose about to build /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/meow
+309 info /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/meow unbuild
+310 verbose from cache /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules/meow/package.json
+311 info preuninstall meow@2.0.0
+312 info uninstall meow@2.0.0
+313 verbose false,/var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules,/var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/node_modules unbuild meow@2.0.0
+314 info postuninstall meow@2.0.0
+315 silly lockFile 9d7b8598-object-assign-1-0-0 object-assign@^1.0.0
+316 silly lockFile 9d7b8598-object-assign-1-0-0 object-assign@^1.0.0
+317 verbose about to build /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url
+318 info /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url unbuild
+319 verbose from cache /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/base64url/package.json
+320 info preuninstall base64url@1.0.6
+321 info uninstall base64url@1.0.6
+322 verbose true,/var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules,/var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules unbuild base64url@1.0.6
+323 verbose /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets/node_modules/.bin,[object Object] binRoot
+324 info postuninstall base64url@1.0.6
+325 error Error: No compatible version found: indent-string@'^1.1.0'
+325 error Valid install targets:
+325 error ["0.1.0","0.1.1","0.1.2","0.1.3","1.0.0","1.1.0","1.2.0","1.2.1","1.2.2","2.0.0","2.1.0"]
+325 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:685:10)
+325 error     at /usr/local/lib/node_modules/npm/lib/cache.js:607:10
+325 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+325 error     at Object.oncomplete (fs.js:107:15)
+326 error If you need help, you may report this log at:
+326 error     <http://github.com/isaacs/npm/issues>
+326 error or email it to:
+326 error     <npm-@googlegroups.com>
+327 error System Linux 2.6.32-042stab108.2
+328 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "base64url"
+329 error cwd /var/www/vhosts/redkastella.com/httpdocs/node_app_sockets
+330 error node -v v0.10.4
+331 error npm -v 1.2.18
+332 verbose exit [ 1, true ]

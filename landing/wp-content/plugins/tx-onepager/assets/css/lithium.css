@@ -1,0 +1,643 @@
+/* Grid
+  1. Flex Default value to ensure it work well
+  2. Grid can be use stanalone with any component
+ ========================================================================== */
+.flex {
+  /*1*/
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /*2*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.flex-inline {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.flex-column {
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+/*
+ * Fixes initial flex-shrink value in IE10
+ */
+.flex > *,
+.flex-inline > * {
+  -ms-flex-negative: 1;
+}
+/* Alignment
+ ========================================================================== */
+/*
+ * Vertical alignment
+ * Default value is `stretch`
+ */
+.flex-top {
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.flex-middle {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.flex-bottom {
+  -webkit-box-align: end;
+  -moz-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+/*
+ * Horizontal alignment
+ * Default value is `flex-start`
+ */
+.flex-center {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.flex-right {
+  -webkit-box-pack: end;
+  -moz-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+.flex-space-between {
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.flex-space-around {
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+body {
+  position: relative;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+.op-section {
+  outline: 0;
+}
+/* ==========================================
+   Blocks: Common
+ ============================================ */
+.btn {
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+.op-section > .desc,
+.op-section > .media p {
+  font-size: 1.143em;
+}
+.op-section .btn {
+  border: 0;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .ml-big {
+    margin-left: 1rem;
+  }
+  .mr-big {
+    margin-right: 1rem;
+  }
+  .pl-big {
+    padding-left: 20px;
+  }
+  .pr-big {
+    padding-right: 20px;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .ml-big {
+    margin-left: 4rem;
+  }
+  .mr-big {
+    margin-right: 4rem;
+  }
+  .pl-big {
+    padding-left: 40px;
+  }
+  .pr-big {
+    padding-right: 40px;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .ml-big {
+    margin-left: 8rem;
+  }
+  .mr-big {
+    margin-right: 8rem;
+  }
+  .pl-big {
+    padding-left: 60px;
+  }
+  .pr-big {
+    padding-right: 60px;
+  }
+}
+.social-links > a {
+  font-family: FontAwesome;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 5px;
+}
+.social-links > a:hover {
+  text-decoration: none;
+}
+.social-links > a[href*='facebook.com']:before {
+  content: '\f09a';
+}
+.social-links > a[href*='facebook.com']:hover:before {
+  color: #3b5998;
+}
+.social-links > a[href*='instagram.com']:before {
+  content: '\f16d';
+}
+.social-links > a[href*='instagram.com']:hover:before {
+  color: #3b5998;
+}
+.social-links > a[href*='twitter.com']:before {
+  content: '\f099';
+}
+.social-links > a[href*='twitter.com']:hover:before {
+  color: #00abf0;
+}
+.social-links > a[href*='linkedin.com']:before {
+  content: '\f0e1';
+}
+.social-links > a[href*='linkedin.com']:hover:before {
+  color: #105b88;
+}
+.social-links > a[href*='plus.google.com']:before {
+  content: '\f0d5';
+}
+.social-links > a[href*='plus.google.com']:hover:before {
+  color: #df4b38;
+}
+.social-links > a[href*='behance.net']:before {
+  content: '\f1b4';
+}
+.social-links > a[href*='behance.net']:hover:before {
+  color: #1478ff;
+}
+.social-links > a[href*='dribbble.com']:before {
+  content: '\f17d';
+}
+.social-links > a[href*='dribbble.com']:hover:before {
+  color: #f16396;
+}
+.social-links > a[href*='flickr.com']:before {
+  content: '\f16e';
+}
+.social-links > a[href*='flickr.com']:hover:before {
+  color: #fe0084;
+}
+.social-links > a[href*='github.com']:before {
+  content: '\f09b';
+}
+.social-links > a[href*='codepen.io']:before {
+  content: '\f1cb';
+}
+/* ==========================================
+   Blocks: Navbar
+ ============================================ */
+/*
+	Remvoe BS navbar margin
+*/
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+}
+/*
+	Default height for Navbar 1
+*/
+.navbar-1,
+.navbar-3 {
+  height: 60px;
+}
+/*
+	Make the navbar brand less paddable
+*/
+.navbar-brand {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/*
+	Make navbar vertically center
+*/
+.navbar-nav {
+  margin-top: 5px;
+}
+/*
+	Adjust navbar-button vertical alignment and give space to right
+*/
+.navbar-btn {
+  display: block;
+  margin-top: 13px;
+  margin-right: 0;
+}
+/*
+	Affix Enabled
+*/
+.navbar.affix {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+.navbar.affix .navbar-nav {
+  margin-top: 0;
+}
+.op-build-active:not(.op-sidebar-collapsed) .navbar.affix {
+  width: 77%;
+}
+/*
+	Responsive Mobile first style
+*/
+@media (min-width: 768px) {
+  /*
+    Turn off the hover background
+    */
+  .nav > li > a:hover,
+  .nav > li > a:focus {
+    background-color: transparent;
+  }
+  .navbar-btn {
+    display: inline-block;
+  }
+}
+/* OFF CANVAS MENU
+-------------------------------------------------- */
+.offcanvas-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -20%;
+  width: 20%;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.offcanvas-active {
+  right: 20%;
+}
+.offcanvas-active .offcanvas-menu {
+  right: 0;
+}
+.offcanvas-menu .nav {
+  margin: 40px 0 0;
+}
+.offcanvas-menu .nav li {
+  float: none;
+}
+.offcanvas-menu .nav > li > a:hover,
+.offcanvas-menu .nav > li > a:focus,
+.offcanvas-menu .nav > li.active > a {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.offcanvas-trigger {
+  margin: 8px;
+}
+.offcanvas-close {
+  font-size: 20px;
+  color: #FFF;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.op-build-active.offcanvas-active {
+  right: 15%;
+}
+.op-build-active .offcanvas-menu {
+  width: 15%;
+}
+/* ==========================================
+   Blocks: Header
+ ============================================ */
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel-inner > .item > .slide-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+.carousel-inner > .item .carousel-caption {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-color: transparent;
+  background: rgba(50, 50, 50, 0.1);
+}
+.carousel-indicators li.active {
+  width: 18px;
+  height: 18px;
+  background: rgba(50, 50, 50, 0.4);
+}
+/* ==========================================
+   Blocks: Contents
+ ============================================ */
+/*
+	Button
+*/
+/* ==========================================
+   Blocks: Portfolios
+ ============================================ */
+.portfolios figure {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* ==========================================
+  Blocks: Blogs
+============================================ */
+.blogs .row {
+  margin-top: 30px;
+}
+.blog-1 .title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+/* ==========================================
+  Blocks: Team
+============================================ */
+.teams figure {
+  margin-bottom: 15px;
+}
+.teams .overlay-background .social-links a {
+  color: #fff;
+}
+/* ========================================================================
+   Component: Overlay
+ ========================================================================== */
+/*
+ * 1. Container width fits its content
+ * 2. Create position context
+ * 3. Set max-width for responsive images to prevent `inline-block` consequences
+ * 4. Remove the gap between the container and its child element
+ * 5. Needed for transitions and to fixed wrong scaling calculation for images in Chrome
+ * 6. Fixed `overflow: hidden` to be ignored with border-radius and CSS transforms in Webkit
+ * 7. Reset margin
+ */
+.overlay {
+  /* 1 */
+  display: inline-block;
+  /* 2 */
+  position: relative;
+  /* 3 */
+  max-width: 100%;
+  /* 4 */
+  vertical-align: middle;
+  /* 5 */
+  overflow: hidden;
+  /* 6 */
+  -webkit-transform: translateZ(0);
+  /* 7 */
+  margin: 0;
+}
+/* 6 for Safari */
+.overlay.border-circle {
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+}
+/*
+ * Remove margin from content
+ */
+.overlay > :first-child {
+  margin-bottom: 0;
+}
+/* Sub-object `overlay-panel`
+ ========================================================================== */
+/*
+ * 1. Position cover
+ * 2. Style
+ */
+.overlay-panel {
+  /* 1 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* 2 */
+  padding: 20px;
+  color: #ffffff;
+}
+/*
+ * Remove margin from the last-child
+ */
+.overlay-panel > :last-child,
+.overlay-panel.flex > * > :last-child {
+  margin-bottom: 0;
+}
+/*
+ * Keep color for headings if the default heading color is changed
+ */
+.overlay-panel h1,
+.overlay-panel h2,
+.overlay-panel h3,
+.overlay-panel h4,
+.overlay-panel h5,
+.overlay-panel h6 {
+  color: inherit;
+}
+.overlay-panel a:not([class]) {
+  color: inherit;
+  text-decoration: underline;
+}
+.overlay-panel a[class*='icon-']:not(.icon-button) {
+  color: inherit;
+}
+/* Sub-object `overlay-hover` and `overlay-active`
+ ========================================================================== */
+.overlay-hover:not(:hover):not(.hover) .overlay-panel:not(.ignore) {
+  opacity: 0;
+}
+.overlay-active :not(.active) > .overlay-panel:not(.ignore) {
+  opacity: 0;
+}
+/* Modifier `overlay-background`
+ ========================================================================== */
+.overlay-background {
+  background: rgba(0, 0, 0, 0.5);
+}
+/* Modifier `overlay-image`
+ ========================================================================== */
+/*
+ * Reset panel
+ */
+.overlay-image {
+  padding: 0;
+}
+/* Position modifiers
+ ========================================================================== */
+.overlay-top {
+  bottom: auto;
+}
+.overlay-bottom {
+  top: auto;
+}
+.overlay-left {
+  right: auto;
+}
+.overlay-right {
+  left: auto;
+}
+/* Sub-object `overlay-icon`
+ ========================================================================== */
+.overlay-icon:before {
+  content: "\f002";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  margin-left: -25px;
+  font-size: 50px;
+  line-height: 1;
+  font-family: FontAwesome;
+  text-align: center;
+  color: #ffffff;
+}
+/* Transitions
+ ========================================================================== */
+.overlay-fade,
+.overlay-scale,
+.overlay-spin,
+.overlay-grayscale,
+.overlay-blur,
+[class*='overlay-slide'] {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-property: opacity transform filter;
+}
+.overlay-active .overlay-fade,
+.overlay-active .overlay-scale,
+.overlay-active .overlay-spin,
+.overlay-active [class*='overlay-slide'] {
+  transition-duration: 0.8s;
+}
+/*
+ * Fade
+ */
+.overlay-fade {
+  opacity: 0.7;
+}
+.overlay-hover:hover .overlay-fade,
+.overlay-active .active > .overlay-fade {
+  opacity: 1;
+}
+/*
+ * Scale
+ */
+.overlay-scale {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.overlay-hover:hover .overlay-scale,
+.overlay-active .active > .overlay-scale {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/*
+ * Spin
+ */
+.overlay-spin {
+  -webkit-transform: scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
+}
+.overlay-hover:hover .overlay-spin,
+.overlay-active .active > .overlay-spin {
+  -webkit-transform: scale(1.1) rotate(3deg);
+  transform: scale(1.1) rotate(3deg);
+}
+/*
+ * Grayscale
+ */
+.overlay-grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.overlay-hover:hover .overlay-grayscale,
+.overlay-active .active > .overlay-grayscale {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+/*
+ * Slide
+ */
+[class*='overlay-slide'] {
+  opacity: 0;
+}
+/* Top */
+.overlay-slide-top {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+/* Bottom */
+.overlay-slide-bottom {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+/* Left */
+.overlay-slide-left {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+/* Right */
+.overlay-slide-right {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+/* Hover */
+.overlay-hover:hover [class*='overlay-slide'],
+.overlay-active .active > [class*='overlay-slide'] {
+  opacity: 1;
+  -webkit-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
+}

@@ -1,0 +1,214 @@
+/**
+ * [Code color]
+ * Turquoise: #3cbea7
+ */
+
+a:not(.wt_button),
+a:not(.wt_button):hover,
+.wt_skin_color,
+#nav.wt_nav_top ul li.active > a, 
+#nav.wt_nav_top ul li.current_page_item > a,
+#nav.wt_nav_top ul li:hover > a,
+#nav ul li .mega-menu-widget a:hover,
+.wt_services:hover .wt_icon,
+#breadcrumbs .breadcrumbs a,
+#breadcrumbs .breadcrumbs-separator,
+#wt_footer .widget a:hover,
+#copyright .copyright span,
+#flexSlider .flex-caption .wt_button.button_slide:hover,
+#nivo_slider_wrap .nivo-caption .wt_button.button_slide:hover,
+#cycle_slider .cycle-overlay .wt_button.button_slide:hover,
+.wt_styled_list li:before,
+.widget_calendar a:hover,
+#wp-calendar caption, 
+#wp-calendar th,
+.wt_postInfo a:hover,
+ul.wt_tabs li a.current,
+ul.wt_tabs li a.current i,
+#wt_footerWrapper ul.wt_tabs li a.current,
+.wt_faq_row h2,
+.wt_services_buttons a,
+.wt_services_slider h3,
+#wt_container .wt_services_slider h3 a,
+.wt_testimonials_slider_sc .wt_bxslider li h3,
+#wt_container .wt_testimonials_slider_sc .wt_bxslider li h3 a,
+.wt_counter_sc,
+.blogEntry .entry_date .day,
+.blogEntry .entry_date span,
+.wt_service_box_sc .wt_icon_type_1.wt_icon_default,
+.wt_service_box_sc .wt_icon_type_3.wt_icon_default,
+.blogEntry_metadata div:hover,
+#wt_sidebar .widget li a:hover, .widget li a:hover, 
+#wt_footerWrapper .widget li .wt_postInfo a:hover, 
+.widget_content ul.arrows_list1 li:hover i, 
+.widget_content ul.archives_list li:hover i {
+	color: #3cbea7; }
+.home #nav.wt_nav_top ul li:hover > a,
+.home #nav.wt_nav_top ul li.current_page_item > a,
+.wt_services .wt_icon,
+.sortableLinks a:hover,
+.sortableLinks a.selected,
+#wt_footerTop,
+#wt-top:hover,
+#wt-top:active,
+#nivo_slider_wrap .nivo-controlNav a,
+.cycle-pager span,
+.tparrows:hover,
+.flex-control-paging li a.flex-active,
+.nivo-controlNav a,
+h6.wt_framed_box_title,
+.error_page .wt_button,
+a.read_more:hover,
+.wp-pagenavi > .active,
+.wp-pagenavi > .active > span,
+.wp-pagenavi > .active > a:hover,
+.wp-pagenavi > .active > span:hover,
+.wp-pagenavi > .active > a:focus,
+.wp-pagenavi > .active > span:focus,
+.wp-pagenavi .currentPosts,
+.blogEntry a.read_more_link,
+.form.mc4wp-form input[type="submit"],
+.wpcf7 input[type="submit"],
+#today, #wt_containerWrapp #today,
+.wt_search_form .wt_search_go,
+.tagcloud a:hover,
+#wt_footerWrapper .tagcloud a:hover,
+.widget_categories ul li:hover span,
+.overlay,
+.comment_wrap .gravatar img:hover,
+.comment_wrap .gravatar:hover:after,
+.contact_button,
+.wt_flickrWrap div .hover,
+.btn-theme,
+.form.mc4wp-form input[type="submit"]:hover,
+.wpcf7 input[type="submit"]:hover,
+.wt_team_info,
+.wt_services_buttons a.active,
+.wt_testimonials_slider_sc .bx-pager.bx-default-pager a:hover,
+.wt_testimonials_slider_sc .bx-pager.bx-default-pager a.active,
+.blogEntry .wt_dates:hover,
+.wt_blog_grid_sc .time,
+.wt_service_box_sc .wt_icon_type_2.wt_icon_default,
+.wt_service_box_sc:hover .wt_icon_type_3.wt_icon_default,
+.wt_pricing_box_sc.wt_pricing_featured h3,
+.wt_pricing_box_sc.wt_pricing_featured.wt_price_has_icon .wt_icon,
+.wt_pricing_box_sc.wt_pricing_featured ul,
+.wt_pricing_box_sc.wt_pricing_featured .wt_pricing_btn,
+.wt_image_zoom,
+.wt_icon_lightbox,
+.wt_team_info,
+.btn-primary, .btn-primary, .btn-primary, .btn-primary.active, .open .dropdown-toggle.btn-primary,
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span, 
+.img_blog.owl-carousel.owl-theme .owl-controls .owl-page.active span, 
+.img_blog.owl-carousel.owl-theme .owl-controls .owl-page span:hover,
+.woocommerce-page a.button.wc-backward,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range, 
+.woocommerce-page .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+	background-color: #3cbea7; }	
+.wt_skin_bg_color,
+#cancel-comment-reply-link:hover, 
+#cancel-comment-reply-link:focus, 
+#cancel-comment-reply-link:active,
+.wt_search_form .sb-search-submit:hover,
+.woocommerce .woocommerce-message:before, 
+.woocommerce-page .woocommerce-message:before,
+.woocommerce span.onsale, .woocommerce-page span.onsale,
+.woocommerce button.button.alt,
+.woocommerce-page button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce-page input.button.alt,
+.woocommerce button.button:hover,
+.woocommerce-page button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce-page input.button:hover,
+.nicescroll-rails div {
+	background-color: #3cbea7 !important; }
+.woocommerce-page a.button:hover,
+.woocommerce-page .price,
+.woocommerce .star-rating, .woocommerce-page .star-rating {
+	color: #3cbea7 !important; }
+.wt_skin_border_color,
+#cancel-comment-reply-link:hover, 
+#cancel-comment-reply-link:focus, 
+#cancel-comment-reply-link:active,
+a.read_more:hover,
+.wp-pagenavi > .active,
+.wp-pagenavi > .active > span,
+.wp-pagenavi > .active > a:hover,
+.wp-pagenavi > .active > span:hover,
+.wp-pagenavi > .active > a:focus,
+.wp-pagenavi > .active > span:focus,
+.wp-pagenavi .currentPosts,
+.avatar:hover img,
+.form.mc4wp-form input[type="submit"]:hover,
+.wt_services_slider h3,
+.wt_service_box_sc .wt_icon_type_3.wt_icon_default,
+.btn-primary, .btn-primary, .btn-primary,
+.btn-primary:hover, .btn-primary:focus, 
+.btn-primary:active, .btn-primary.active, 
+.open .dropdown-toggle.btn-primary {
+	border-color: #3cbea7; }
+.wt_skin_border_left_color,
+.wt_services_buttons a,
+.wt_blog_grid_sc .blogEntry:before,
+.wt_blog_grid_sc .wt_dates {
+	border-left-color: #3cbea7; }
+.wt_skin_border_right_color,
+.wt_services_buttons a,
+.wt_blog_grid_sc .blogEntry:before,
+.wt_blog_grid_sc .wt_dates {
+	border-right-color: #3cbea7; }
+.wt_skin_border_top_color,
+ul.wt_tabs li a.current {
+	border-top-color: #3cbea7; }
+.wt_skin_border_bottom_color,
+#nav ul ul.sub-menu, 
+#nav ul ul.sub-menu li ul.sub-menu,
+#nav ul ul.children, 
+#nav ul ul.children li ul.children,
+.wt_pricing_box_sc.wt_pricing_featured .wt_pricing_header {
+	border-bottom-color: #3cbea7; }
+.row-fluid textarea:focus, .row-fluid input:focus,
+.woocommerce .woocommerce-message, 
+.woocommerce-page .woocommerce-message,
+.woocommerce button.button.alt,
+.woocommerce-page button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce-page input.button.alt,
+.woocommerce button.button:hover,
+.woocommerce-page button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce-page input.button:hover {
+    border-color: #3cbea7 !important; }
+.wt_pricing_box_sc.wt_pricing_featured .wt_plan_price,
+.btn-theme:hover,
+.wt_image_zoom:hover, .wt_image_zoom:focus,
+.wt_icon_lightbox:hover,  
+.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle:last-child, 
+.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle:last-child {
+	background: #39b39c; }
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle, 
+.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle {
+	border-color: #39b39c; }
+.wt_pricing_box_sc.wt_pricing_featured ul li,
+.wt_pricing_box_sc.wt_pricing_featured .wt_plan_price,
+.wt_pricing_box_sc.wt_pricing_featured .wt_pricing_btn {
+	border-top-color: #39b39c; }
+.wt_pricing_box_sc.wt_pricing_featured .wt_plan_price {
+	border-bottom-color: #39b39c; }
+.wt_contact_form_wrap .contact_button:hover {
+	background: rgba(60,190,167, 0.6); }
+.wt_color_overlay,
+.btn-primary:hover, .btn-primary:focus, 
+.btn-primary:active, .btn-primary.active, 
+.open .dropdown-toggle.btn-primary {
+	background: rgba(60,190,167, 0.8); }
+.cta-btn {
+	color: #fff !important;
+	background: rgba(0,0,0, 0.1); }
+.cta-btn:hover {
+	background: rgba(0,0,0, 0.2); }
+.wt_loader_html {
+	background-image: url(turquoise/loader.gif); }

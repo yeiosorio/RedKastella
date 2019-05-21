@@ -1,0 +1,42 @@
+[03-Jul-2016 12:27:28 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home/redkastella/public_html/wp-includes/nav-menu-template.php on line 16
+[03-Jul-2016 12:27:29 America/Chicago] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/redkastella/public_html/wp-includes/script-loader.php on line 25
+[03-Jul-2016 12:27:29 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/redkastella/public_html/wp-includes/script-loader.php on line 25
+[03-Jul-2016 12:27:37 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home/redkastella/public_html/wp-includes/class-walker-page-dropdown.php on line 17
+[03-Jul-2016 12:27:38 America/Chicago] PHP Fatal error:  Call to undefined function feed_content_type() in /home/redkastella/public_html/wp-includes/feed-rss2.php on line 8
+[03-Jul-2016 12:27:41 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home/redkastella/public_html/wp-includes/class-walker-page.php on line 17
+[03-Jul-2016 12:28:00 America/Chicago] PHP Warning:  require_once(ABSPATHWPINC/widgets/class-wp-widget-pages.php): failed to open stream: No such file or directory in /home/redkastella/public_html/wp-includes/default-widgets.php on line 11
+[03-Jul-2016 12:28:00 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/widgets/class-wp-widget-pages.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/redkastella/public_html/wp-includes/default-widgets.php on line 11
+[03-Jul-2016 12:28:01 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/redkastella/public_html/wp-includes/default-filters.php on line 17
+[03-Jul-2016 12:28:20 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/redkastella/public_html/wp-includes/functions.php on line 8
+[03-Jul-2016 12:28:20 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/redkastella/public_html/wp-includes/functions.php on line 8
+[03-Jul-2016 12:28:45 America/Chicago] PHP Warning:  require(ABSPATHWPINC/random_compat/random.php): failed to open stream: No such file or directory in /home/redkastella/public_html/wp-includes/compat.php on line 338
+[03-Jul-2016 12:28:45 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/random_compat/random.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/redkastella/public_html/wp-includes/compat.php on line 338
+[03-Jul-2016 12:28:49 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/redkastella/public_html/wp-includes/formatting.php on line 4829
+[03-Jul-2016 12:28:55 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/redkastella/public_html/wp-includes/vars.php on line 23
+[03-Jul-2016 12:29:19 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/redkastella/public_html/wp-includes/rss.php on line 19
+[03-Jul-2016 12:29:22 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home/redkastella/public_html/wp-includes/class-walker-category.php on line 17
+[03-Jul-2016 12:29:25 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home/redkastella/public_html/wp-includes/class-walker-category-dropdown.php on line 17
+[03-Jul-2016 12:29:26 America/Chicago] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php): failed to open stream: No such file or directory in /home/redkastella/public_html/wp-includes/class-wp-customize-panel.php on line 388
+[03-Jul-2016 12:29:26 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/redkastella/public_html/wp-includes/class-wp-customize-panel.php on line 388
+[03-Jul-2016 12:29:30 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home/redkastella/public_html/wp-includes/class-walker-comment.php on line 16
+[03-Jul-2016 12:29:39 America/Chicago] PHP Fatal error:  Call to undefined function feed_content_type() in /home/redkastella/public_html/wp-includes/feed-atom.php on line 8
+[03-Jul-2016 12:29:40 America/Chicago] PHP Fatal error:  Call to undefined function feed_content_type() in /home/redkastella/public_html/wp-includes/feed-rdf.php on line 8
+[03-Jul-2016 12:29:44 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/redkastella/public_html/wp-includes/rss-functions.php on line 8
+[03-Jul-2016 12:29:45 America/Chicago] PHP Fatal error:  Call to undefined function feed_content_type() in /home/redkastella/public_html/wp-includes/feed-rss.php on line 8
+[09-Jul-2016 15:08:07 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home/redkastella/public_html/wp-includes/nav-menu-template.php on line 16
+[09-Jul-2016 15:08:15 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/redkastella/public_html/wp-includes/default-filters.php on line 17
+[09-Jul-2016 15:08:50 America/Chicago] PHP Fatal error:  Call to undefined function feed_content_type() in /home/redkastella/public_html/wp-includes/feed-rss2.php on line 8
+[09-Jul-2016 15:08:58 America/Chicago] PHP Fatal error:  Call to undefined function feed_content_type() in /home/redkastella/public_html/wp-includes/feed-rdf.php on line 8
+[09-Jul-2016 15:09:09 America/Chicago] PHP Fatal error:  Call to undefined function is_robots() in /home/redkastella/public_html/wp-includes/template-loader.php on line 28
+[09-Jul-2016 15:09:29 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home/redkastella/public_html/wp-includes/class-walker-page-dropdown.php on line 17
+[09-Jul-2016 15:09:30 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home/redkastella/public_html/wp-includes/class-walker-page.php on line 17
+[09-Jul-2016 15:09:38 America/Chicago] PHP Warning:  require_once(ABSPATHWPINC/widgets/class-wp-widget-pages.php): failed to open stream: No such file or directory in /home/redkastella/public_html/wp-includes/default-widgets.php on line 11
+[09-Jul-2016 15:09:38 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/widgets/class-wp-widget-pages.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/redkastella/public_html/wp-includes/default-widgets.php on line 11
+[09-Jul-2016 15:09:50 America/Chicago] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/redkastella/public_html/wp-includes/script-loader.php on line 25
+[09-Jul-2016 15:09:50 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/redkastella/public_html/wp-includes/script-loader.php on line 25
+[09-Jul-2016 15:09:51 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home/redkastella/public_html/wp-includes/class-walker-category-dropdown.php on line 17
+[09-Jul-2016 15:09:52 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home/redkastella/public_html/wp-includes/class-walker-comment.php on line 16
+[09-Jul-2016 15:09:58 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/redkastella/public_html/wp-includes/functions.php on line 8
+[09-Jul-2016 15:09:58 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/redkastella/public_html/wp-includes/functions.php on line 8
+[09-Jul-2016 15:10:22 America/Chicago] PHP Warning:  require(ABSPATHWPINC/random_compat/random.php): failed to open stream: No such file or directory in /home/redkastella/public_html/wp-includes/compat.php on line 338
+[09-Jul-2016 15:10:22 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/random_compat/random.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/redkastella/public_html/wp-includes/compat.php on line 338
